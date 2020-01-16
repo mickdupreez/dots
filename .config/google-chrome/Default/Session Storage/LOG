@@ -1,0 +1,16 @@
+2020/01/16-15:56:44.231 7bd Reusing MANIFEST /home/michael/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/01/16-15:56:44.231 7bd Recovering log #217
+2020/01/16-15:56:44.232 7bd Level-0 table #220: started
+2020/01/16-15:56:44.234 7bd Level-0 table #220: 15484 bytes OK
+2020/01/16-15:56:44.234 7bd Recovering log #219
+2020/01/16-15:56:44.234 7bd Reusing old log /home/michael/.config/google-chrome/Default/Session Storage/000219.log 
+2020/01/16-15:56:44.237 7bd Delete type=0 #217
+2020/01/16-15:56:44.237 7f2 Compacting 4@0 + 1@1 files
+2020/01/16-15:56:44.241 7f2 Generated table #221@0: 2198 keys, 37154 bytes
+2020/01/16-15:56:44.241 7f2 Compacted 4@0 + 1@1 files => 37154 bytes
+2020/01/16-15:56:44.243 7f2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/16-15:56:44.243 7f2 Delete type=2 #220
+2020/01/16-15:56:44.243 7f2 Delete type=2 #213
+2020/01/16-15:56:44.243 7f2 Delete type=2 #211
+2020/01/16-15:56:44.243 7f2 Delete type=2 #216
+2020/01/16-15:56:44.243 7f2 Delete type=2 #218

@@ -1,0 +1,74 @@
+# vim: filetype=i3
+# This config file will use environmental variables such as $BROWSER and $TERMINAL.
+# You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
+#
+
+# #---Basic Definitions---# #
+for_window [class="^.*"] border pixel 5
+gaps inner 5
+gaps outer 0
+default_border pixel 3
+
+#smart_gaps on
+set $term --no-startup-id $TERMINAL
+set $mod Mod4
+
+
+# rounded corners
+#border_radius 10
+#hide_edge_borders smart
+
+# #---Window colors---#
+set $green		#68f734
+set $red		#CC0000
+set $pink		#f21672
+set $blue		#00b7ff
+set $black		#000000
+
+# CLASS			BORDER	 	BACKGROUND	TEXT		INDICATOR	CHILDBORDER
+
+client.focused		$green		$green		$green 		$green		$green
+client.unfocused	$pink 		$pink		$black 		$pink 		$pink
+
+# #---Dropdown Windows---# #
+# General dropdown window traits. The order can matter.
+
+for_window [class="Termite*"] floating enable
+for_window [class="Termite*"] move scratchpad
+for_window [class="Termite*"] sticky enable
+for_window [class="Termite*"] scratchpad show
+for_window [class="Termite*"] resize set 625 450
+for_window [class="Termite*"] border pixel 3
+for_window [class="Termite*"] move position center
+
+
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 10
+# #---Arrow Keys---# #
+bindsym $mod+Left		focus left
+bindsym $mod+Ctrl+Left		move workspace to output left
+bindsym $mod+Down		focus down
+bindsym $mod+Ctrl+Down		move workspace to output down
+bindsym $mod+Up			focus up
+bindsym $mod+Ctrl+Up		move workspace to output up
+bindsym $mod+Right 		focus right
+bindsym $mod+Ctrl+Right		move workspace to output right
+bindsym $mod+Shift+Left		move left
+bindsym $mod+Shift+Down		move down
+bindsym $mod+Shift+Up		move up
+bindsym $mod+Shift+Right 	move right
+
+
+# lock screen after 10 minutes of idle
+exec_always --no-startup-id xautolock -time 10 -locker 'i3lock -k --indicator -i .config/wallpapers/blurs/mountain.jpg'
+exec_always killall polybar
+exec_always polybarstart
+exec_always --no-startup-id notify-send -i ~/.local/share/larbs/larbs.png 'Welcome to LARBS:' 'Press Super+F1 for the manual.' -t 10000

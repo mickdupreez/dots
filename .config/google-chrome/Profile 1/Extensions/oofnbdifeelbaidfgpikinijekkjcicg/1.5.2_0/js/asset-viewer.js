@@ -1,0 +1,1 @@
+!function(){"use strict";var a=function(a){uDom("#content").text(a&&(a.content||""))},b=window.location.search,c=b.match(/^\?url=([^&]+)/);c&&2===c.length&&vAPI.messaging.send("default",{what:"getAssetContent",url:decodeURIComponent(c[1])},a)}();

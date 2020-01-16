@@ -1,0 +1,42 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://192.168.1.2/admin/index.php"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      }, {
+         "size": 48,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      }, {
+         "size": 64,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      }, {
+         "size": 96,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      }, {
+         "size": 128,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      }, {
+         "size": 256,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      }, {
+         "size": 393,
+         "url": "http://192.168.1.2/admin/img/favicon.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "393": "icons/393.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "ne6Zw3EO4Dhhtah2WbDnBCWfKNo6Gjq4dgqz80kY1yo=",
+   "name": "Pi-hole Admin Console",
+   "version": "2020.1.10.39672"
+}

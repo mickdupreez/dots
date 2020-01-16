@@ -1,0 +1,48 @@
+{
+   "checksum": "50f46822138e8ae65a8ac93210350985",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13219080422309945",
+            "guid": "d720a1dd-b4a2-4c90-8040-baf9e2edc844",
+            "id": "5",
+            "name": "alternative to compton - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?sxsrf=ACYBGNR2cxb7AKgDM5NL6GoZ6HUG3dTbiw%3A1574606210568&ei=gpXaXeWnIoLWz7sP0Mi90A4&q=alternative+to+compton&oq=alternative+to+compto&gs_l=psy-ab.3.0.0.6890.9869..12178...0.2..0.404.1481.0j4j2j0j1......0....1..gws-wiz.......0i71j35i39j0i67j0i20i263j0i22i30.otiBqVZPBts"
+         }, {
+            "date_added": "13219730628716242",
+            "guid": "a3627895-a6fd-42ac-9527-a6cb4a4c4cd2",
+            "id": "7",
+            "name": "Keenformatics: How to solve Dell laptops fan issues in Ubuntu",
+            "type": "url",
+            "url": "http://keenformatics.blogspot.com/2013/06/how-to-solve-dell-laptops-fan-issues-in.html"
+         } ],
+         "date_added": "13222054662750826",
+         "date_modified": "13219730628716242",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13222054662750831",
+         "date_modified": "13222274709206193",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13222054662750831",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CrABCo8BCIiBAhKIARJ2CAISOAoGCgJibRABEDMaEgkAq1y325sFACEAq1y325sFADIYChYIAhFScebG25sFABgAIQAAAAAAAAAAEjgKBgoCYmQQABAzGhIJAKtct9ubBQAhAKtct9ubBQAyGAoWCAIRUnHmxtubBQAYACEAAAAAAAAAACAASPGFsaP5LXDbiJqh+S0SACABKhg4ZC9CZTUvaGFYZEJwZmNlaFNQanZ3PT0SrgEIARKpARJOWjpBRHF0QVp3RG5kQ0F0VThzdlJDNnZuREhqWUFGWTVadHZyby9BemJSajZtY3hjSCtGYytHNWNKYSszMVFQZGMrcitPQ0Y2VFFlWE9QGAAgACgAMK+hzt3T2eYCOABAAEocVStHR0l0WkVEcFpzSVNsT1VhSVR1SUxkTW5JPVomIiSAAAAAAAAAADVZx0U03mx+1vFH5pcdbgLWFfU4VTpdH8/LB38SxgEIAhLBARJmWjpBRHF0QVp3Y0U3WGkwMTJ1UkRGcWNpRDlPU1hCcW9TQ2wyRC8yOGVyS25VK0ZYY1ZvT005dkZ1bGpJYVVsNXlka3lhU2lPS0NaOHZiWDI4WGFLN1UxVE82Vk54WldGMk1SQT09GAAgACgAMK+hzt3T2eYCOABAAEocNXVzeS9jcGZwaTFFdG9CSERnWElzMHFiNHJBPVomIiSAAAAAAAAAAAnXylGibkIbEZ5p23XJGE6FssD8k9rnyX9PPn8SxgEIAxLBARJmWjpBRHF0QVp6S3NFZWhtOWZxTXlaalYvRGY5UFJMeW5ocVl0RjROekc5VGQwTUVFQ3JmdS9EcXJIT3doOW5sRFZzWXAySHMzbm5IK2QzeThrZkFOSExIWW9CYnVGUXp1dzhPUT09GAAgACgAMK+hzt3T2eYCOABAAEocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVomIiSAAAAAAAAAANrHtkzo5Xx6Fiw3KLcOS5/vWzmUuPqoK3eJ/X8SigIIBxKFAhKmAVo6QURxdEFaempZQmVjR3BMRXBMcEtOUjV0WkxYdlRleXZjTFQ3OHcrSnZ3VVZqZlNwWGpoeXNUUWVtUjE1OFEzSVJHQ0hpd2ZSQzdlRDhZekNuQlo0NW03OWh2OTZsZ2trbitJWTB3QWZPSURIbUpaWUtCTUJqMnNaVlpJM1FadU5yWURHUjBYU1dxYnFrOTZkektDT1pIMnVnTFFKaVBmbmZ3PT0YACACKAIwgJLMi6jp5gI4s+Wbq+wtQNaG7/n2LUocZHJPWmNJbzFMbGZMb3A2MHF5ZVFQUDlkUGVZPVofIh3RRnFJWE5JNWoxdmd1bUlPL3N3L011ZjFoY013PRKJAggFEoQCEqYBWjpBRHF0QVp6allCZWNHcExFcExwS05SNXRaTFh2ZWxrd3UvekIrN3ZLZTM4VERhZkV3Tnc2SmwvTE9RRE93UXUySFRSMWl4cDArK1RoVEhTTG40bzdSMXNiRWtOWXV4TmZ0aGFRWlN1eGhYZmE5c0twVWdNK3hPazgzNXV6UFhxTnplb1JRMVN3cFpGZ1lIMUlCbFBkc2Fra1FyS3I5Ujg3R3c9PRgAIAIoAjCAksyLqOnmAjimt4Xv6S1A1obv+fYtShxQSTQvaUMwSGdqYjRYVEpTZmtMWFBNYXNZb2c9Wh4iHEVYd1BoenMxN2RlTHU2OHNmODJycUl1RGZNUT0=",
+   "version": 1
+}

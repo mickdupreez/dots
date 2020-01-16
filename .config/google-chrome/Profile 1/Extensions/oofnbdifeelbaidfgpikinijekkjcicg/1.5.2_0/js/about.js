@@ -1,0 +1,1 @@
+uDom.onLoad(function(){"use strict";var a=function(a){uDom("#aboutNameVer").text(a.name+" v"+a.version)};vAPI.messaging.send("dashboard",{what:"getAppData"},a)});

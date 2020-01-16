@@ -1,0 +1,70 @@
+.FloatingForYoutubeThumbnailButton {
+    visibility: hidden;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    background: #f8f8f8 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path fill="#878787" d="M28,14.8 L26.95,15.85Q26.95,15.85 25.7,16.1Q25.7,16.1 25.25,16.15Q25.25,16.15 24.9,16.15L24.6,16.1L19.9,20.75L20.05,21.3L20.2,21.95Q20.2,21.95 20.25,22.6Q20.25,22.6 20.25,24.7Q20.25,24.7 18.85,26.1L15.2,22.5L12.35,25.3Q12.35,25.3 9.9,26.95Q9.9,26.95 9.15,27.45Q9.15,27.45 8.5,27.8L8,28L8.2,27.55L8.55,26.85Q8.55,26.85 9.05,26.1Q9.05,26.1 10.7,23.6Q10.7,23.6 13.55,20.75L9.9,17.15L11.35,15.75Q11.35,15.75 13.4,15.75Q13.4,15.75 14.05,15.8Q14.05,15.8 14.7,15.95L15.2,16.1L19.9,11.4L19.85,11.1L19.85,10.7Q19.85,10.7 19.95,10.35Q19.95,10.35 20.15,9.05Q20.15,9.05 21.2,8"></path></svg>') repeat;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.ux-thumb-wrap:hover .FloatingForYoutubeThumbnailButton,
+.yt-lockup-thumbnail:hover .FloatingForYoutubeThumbnailButton,
+.video-list-item.related-list-item:hover .FloatingForYoutubeThumbnailButton {
+    visibility: visible;
+}
+
+.FloatingForYoutubeTooltip {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: 26px;
+    margin: -42px 0 0 -65px;
+    padding: 6px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+    background: #000;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    opacity: 0;
+    -webkit-transition: opacity 150ms linear;
+    z-index: 99999999;
+    text-align: center;
+    box-sizing: content-box !important;
+}
+
+.FloatingForYoutubeTooltip.FloatingForYoutubeTooltipShow {
+    opacity: 1;
+}
+
+.FloatingForYoutubeTooltip:before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    margin: 0 0 0 -2px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+
+/* YouTube Gaming */
+
+ytg-nav-endpoint {
+    position: relative;
+}
+
+ytg-nav-endpoint:hover .FloatingForYoutubeThumbnailButton {
+    visibility: visible;
+}

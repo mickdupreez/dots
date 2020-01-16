@@ -1,0 +1,1 @@
+!function(){"use strict";vAPI.messaging.send("default",{what:"gotoURL",details:{url:"dashboard.html",select:!0,index:-1}}),window.close()}();

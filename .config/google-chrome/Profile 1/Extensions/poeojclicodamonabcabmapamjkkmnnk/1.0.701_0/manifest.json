@@ -1,0 +1,47 @@
+{
+   "author": "Privax",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "img/icon16.png",
+         "32": "img/icon32.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "VPN"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/tabKillerContent.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/proxyContent.js" ],
+      "matches": [ "*://*.hidemyass.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_product_description__",
+   "homepage_url": "https://www.hidemyass.com",
+   "icons": {
+      "128": "img/icon128-active.png",
+      "16": "img/icon16-active.png",
+      "256": "img/icon256-active.png",
+      "32": "img/icon32-active.png",
+      "48": "img/icon48-active.png",
+      "64": "img/icon64-active.png",
+      "96": "img/icon96-active.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr0JKmFJ0kxjfH4NbCLHC8SA59tQmaH4Vc3Z5ZYpWDkzIoa5wORk+7hRcvbo2D9jpEop9JZGrSZbz/OyS0hcY7HLmf5rtkYA45crLYBQeeRJOnf6oAT7BVD1KrhabZUqtBF6hrTrd5GCbo+XeI1yfPBw6uJ8yoOIBz/GGSQsLCJ2UnBZRkt3lY5kshjBFIsPwDHn5meCLfNJ6/jIPb9pKmgw/ARTown3woSa9cM8+TMSrluM7GQsn6+baY9M+RC4yQgvLald17pBTBTRsa0P6ZjfTyzIJgpt052tZ5UTl8XlJiIZU0I/6rmbsCFVrSZRPJhSazXD6GSwYpjAO3yR+RQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_product_name__",
+   "permissions": [ "alarms", "management", "storage", "tabs", "privacy", "proxy", "notifications", "webNavigation", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "short_name": "__MSG_product_name_short_chrome__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.701",
+   "web_accessible_resources": [  ]
+}

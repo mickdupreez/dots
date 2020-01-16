@@ -1,0 +1,459 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'l
+	/home/michael
+	.dotfiles
+1577594550
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/michael
+	.local
+12
+d/home/michael/.local
+	bin
+1
+d/home/michael/.local/bin
+	myscripts
+4
+d/home/michael/.local/bin/myscripts
+	lastbackup
+14
+d/home/michael/.local/bin
+	fontawesome-menus
+2
+d/home/michael/.local
+	bin
+1
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	i3
+21
+d/home/michael/.config/i3
+	config
+2
+d/home/michael/.config
+	i3
+21
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	polybar
+32
+d/home/michael/.config/polybar
+	config
+2
+d/home/michael
+	.config
+4
+d/home
+	michael
+1
+d/home/michael
+	.config
+4
+d/home
+	michael
+1
+d/
+	home
+4
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	systemd
+19
+d/home/michael/.config/systemd
+	user
+1
+d/home/michael/.config/systemd/user
+	default.target.wants
+1
+d/home/michael/.config/systemd/user/default.target.wants
+	spotifyd.service
+1
+d/home/michael/.config/systemd/user
+	default.target.wants
+1
+d/home/michael/.config/systemd
+	user
+1
+d/home/michael/.config
+	fontconfig
+4
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	polybar
+10
+d/home/michael/.config/polybar
+	config
+2
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	vifm
+23
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	user-dirs.locale
+36
+d/home/michael
+	.config
+4
+d/home/michael/.config
+	yay
+32
+d/home/michael
+	.config
+1
+
+# Right window history (oldest to newest):
+D/home/michael/.config/vifm/vifm
+	
+0
+D/
+	bin
+0
+D/sys/class/power_supply/BAT0
+	
+0
+D/home/michael/.local/bin/tools
+	..
+0
+D/home/michael
+	
+0
+D/home/michael/Downloads/installer-master/installer-master
+	installer-master
+4
+D/home/michael/Downloads/installer-master/installer-master/installer-master
+	installer-master
+1
+D/home/michael/Downloads/installer-master/installer-master/installer-master/installer-master
+	iso-generator.sh
+13
+D/home/michael/Downloads/installer-master/installer-master/installer-master
+	installer-master
+1
+D/home/michael/Downloads/installer-master/installer-master
+	lang
+4
+D/home/michael
+	Downloads
+1
+D/home/michael/Downloads
+	installer-master
+1
+D/home/michael/Downloads/installer-master
+	installer-master
+1
+D/home/michael/Downloads/installer-master/installer-master
+	lang
+4
+D/home/michael
+	.local
+10
+D/home/michael/.local
+	share
+2
+D/home/michael
+	.config
+2
+D/home/michael/.config
+	sxhkd
+42
+D/home/michael/.config/sxhkd
+	sxhkdrc
+2
+D/home/michael
+	..
+0
+D/home
+	michael
+1
+D/home/michael
+	.config
+2
+D/home/michael/.config
+	sxhkd
+31
+D/home/michael
+	.local
+10
+D/home/michael/.local
+	share
+2
+D/home/michael/.local/share
+	..
+0
+D/home/michael/.local
+	bin
+1
+D/home/michael/.local/bin
+	mounter
+20
+D/home/michael
+	..
+0
+D/usr/bin
+	
+0
+D/home/michael
+	..
+0
+D/home/michael/Downloads/vifm-0.10.1
+	
+0
+D/home/michael
+	
+0
+
+# Command line history (oldest to newest):
+:execute
+:rlink
+:copy
+:rlink .Xauthority .Xclients .Xdefaults .Xresources .bash_logout .bash_profile .bashrc .dir_colors .gitconfig
+:vifm
+:mkdir test
+:mkdir.screenlayout
+:! ./readline.py
+:qq
+:!st
+:split
+:za
+:set dotfiles
+:set dotfiles dirsize
+:set dirsize
+:setglobal dotfiles
+:setglobal dotdirs
+:setlocal dotfiles
+:!touch 
+:touch displaytitle
+:!vim
+:mkdir python_projects
+:alink .local/bin/python_projects/battery.py .local/bin/myscripts/
+:alink .local/bin/myscripts/
+:chmod
+:w
+:!unzip
+:!unzip LARBS-master.zip
+:view
+:empty
+:!unzip Copy\ of\ Mojave\ 10.14.3\ HFS\ by\ Techsviewer.com.rar
+:colorscheme
+:! sh check-syntax-changes
+:!sudo make install
+:wq
+:Q
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+pmountit
+ptimeshifter.py
+pwsindicator
+p.ohmyzsh
+pEMPTY
+psxhkdrc
+pwsindicator2
+poh-my-zsh
+pconfig-backup
+pconfig
+pbackupd
+p#.zshrc
+p.zshrcbackup
+p.zshrc
+pmichael
+ppowerline2
+pXauthority
+pwi-fi.info
+pViFM
+pi3
+p.Xclients1
+p.gtkrc-2.0
+p.gtkrc-2.0.mine
+pcpu-temp.sh
+pbattery.py
+pbattery.py2
+pThermalcontroller.py
+pmudulerefresh
+prefresh_polybar
+pzshrc
+pMojave 10.14.3 HFS by Techsviewer.vmdk
+pMo.vmdk
+pMojave.vmdk
+plastbackup
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/michael/Trash//000_\
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/michael/Trash//000_Mojave
+	/home/michael/VirtualBox VMs/Mojave
+t/home/michael/Trash//000_deoplete-jedi
+	/home/michael/.vim/plugged/deoplete-jedi
+t/home/michael/Trash//000_deoplete.nvim
+	/home/michael/.vim/plugged/deoplete.nvim
+t/home/michael/Trash//000_goyo.vim
+	/home/michael/.vim/plugged/goyo.vim
+t/home/michael/Trash//000_i3-vim-syntax
+	/home/michael/.vim/plugged/i3-vim-syntax
+t/home/michael/Trash//000_nerdtree
+	/home/michael/.vim/plugged/nerdtree
+t/home/michael/Trash//000_sxhkd-vim
+	/home/michael/.vim/plugged/sxhkd-vim
+t/home/michael/Trash//000_vifm.vim
+	/home/michael/.vim/plugged/vifm.vim
+t/home/michael/Trash//000_vim-airline
+	/home/michael/.vim/plugged/vim-airline
+t/home/michael/Trash//000_vim-airline-themes
+	/home/michael/.vim/plugged/vim-airline-themes
+t/home/michael/Trash//000_vim-commentary
+	/home/michael/.vim/plugged/vim-commentary
+t/home/michael/Trash//000_vim-surround
+	/home/michael/.vim/plugged/vim-surround
+t/home/michael/Trash//000_vimagit
+	/home/michael/.vim/plugged/vimagit
+t/home/michael/Trash//000_vimling
+	/home/michael/.vim/plugged/vimling
+t/home/michael/Trash//000_vimwiki
+	/home/michael/.vim/plugged/vimwiki
+t/home/michael/Trash//000_ra1nstorm.run
+	/home/michael/Downloads/ra1nstorm.run
+t/home/michael/Trash//000_auto-pairs
+	/home/michael/.config/nvim/plugged/auto-pairs
+t/home/michael/Trash//001_deoplete-jedi
+	/home/michael/.config/nvim/plugged/deoplete-jedi
+t/home/michael/Trash//001_deoplete.nvim
+	/home/michael/.config/nvim/plugged/deoplete.nvim
+t/home/michael/Trash//001_goyo.vim
+	/home/michael/.config/nvim/plugged/goyo.vim
+t/home/michael/Trash//001_i3-vim-syntax
+	/home/michael/.config/nvim/plugged/i3-vim-syntax
+t/home/michael/Trash//000_indentLine
+	/home/michael/.config/nvim/plugged/indentLine
+t/home/michael/Trash//000_nerdcommenter
+	/home/michael/.config/nvim/plugged/nerdcommenter
+t/home/michael/Trash//001_nerdtree
+	/home/michael/.config/nvim/plugged/nerdtree
+t/home/michael/Trash//001_sxhkd-vim
+	/home/michael/.config/nvim/plugged/sxhkd-vim
+t/home/michael/Trash//000_syntastic
+	/home/michael/.config/nvim/plugged/syntastic
+t/home/michael/Trash//001_vifm.vim
+	/home/michael/.config/nvim/plugged/vifm.vim
+t/home/michael/Trash//001_vim-airline
+	/home/michael/.config/nvim/plugged/vim-airline
+t/home/michael/Trash//001_vim-airline-themes
+	/home/michael/.config/nvim/plugged/vim-airline-themes
+t/home/michael/Trash//001_vim-commentary
+	/home/michael/.config/nvim/plugged/vim-commentary
+t/home/michael/Trash//000_vim-polyglot
+	/home/michael/.config/nvim/plugged/vim-polyglot
+t/home/michael/Trash//001_vim-surround
+	/home/michael/.config/nvim/plugged/vim-surround
+t/home/michael/Trash//001_vimagit
+	/home/michael/.config/nvim/plugged/vimagit
+t/home/michael/Trash//001_vimling
+	/home/michael/.config/nvim/plugged/vimling
+t/home/michael/Trash//001_vimwiki
+	/home/michael/.config/nvim/plugged/vimwiki
+t/home/michael/Trash//001_auto-pairs
+	/home/michael/.vim/plugged/auto-pairs
+t/home/michael/Trash//001_indentLine
+	/home/michael/.vim/plugged/indentLine
+t/home/michael/Trash//001_nerdcommenter
+	/home/michael/.vim/plugged/nerdcommenter
+t/home/michael/Trash//001_syntastic
+	/home/michael/.vim/plugged/syntastic
+t/home/michael/Trash//001_vim-polyglot
+	/home/michael/.vim/plugged/vim-polyglot
+t/home/michael/Trash//003_vimwiki
+	/home/michael/.config/nvim/neovim/scripts/vimwiki
+t/home/michael/Trash//003_vimling
+	/home/michael/.config/nvim/neovim/scripts/vimling
+t/home/michael/Trash//003_vimagit
+	/home/michael/.config/nvim/neovim/scripts/vimagit
+t/home/michael/Trash//003_vim-surround
+	/home/michael/.config/nvim/neovim/scripts/vim-surround
+t/home/michael/Trash//002_vim-polyglot
+	/home/michael/.config/nvim/neovim/scripts/vim-polyglot
+t/home/michael/Trash//003_vim-commentary
+	/home/michael/.config/nvim/neovim/scripts/vim-commentary
+t/home/michael/Trash//003_vim-airline-themes
+	/home/michael/.config/nvim/neovim/scripts/vim-airline-themes
+t/home/michael/Trash//003_vim-airline
+	/home/michael/.config/nvim/neovim/scripts/vim-airline
+t/home/michael/Trash//003_vifm.vim
+	/home/michael/.config/nvim/neovim/scripts/vifm.vim
+t/home/michael/Trash//002_syntastic
+	/home/michael/.config/nvim/neovim/scripts/syntastic
+t/home/michael/Trash//003_sxhkd-vim
+	/home/michael/.config/nvim/neovim/scripts/sxhkd-vim
+t/home/michael/Trash//003_nerdtree
+	/home/michael/.config/nvim/neovim/scripts/nerdtree
+t/home/michael/Trash//002_nerdcommenter
+	/home/michael/.config/nvim/neovim/scripts/nerdcommenter
+t/home/michael/Trash//002_indentLine
+	/home/michael/.config/nvim/neovim/scripts/indentLine
+t/home/michael/Trash//003_i3-vim-syntax
+	/home/michael/.config/nvim/neovim/scripts/i3-vim-syntax
+t/home/michael/Trash//003_goyo.vim
+	/home/michael/.config/nvim/neovim/scripts/goyo.vim
+t/home/michael/Trash//003_deoplete.nvim
+	/home/michael/.config/nvim/neovim/scripts/deoplete.nvim
+t/home/michael/Trash//003_deoplete-jedi
+	/home/michael/.config/nvim/neovim/scripts/deoplete-jedi
+t/home/michael/Trash//002_auto-pairs
+	/home/michael/.config/nvim/neovim/scripts/auto-pairs
+t/home/michael/Trash//000_ale
+	/home/michael/.config/nvim/neovim/scripts/ale
+t/home/michael/Trash//000_Mojave.vmdk
+	/home/michael/Mojave.vmdk
+t/home/michael/Trash//000_copy-init.cp
+	/home/michael/copy-init.cp
+t/home/michael/Trash//000_native
+	/home/michael/native
+t/home/michael/Trash//000_luke.vifm
+	/home/michael/luke.vifm
+t/home/michael/Trash//000_AUR
+	/home/michael/AUR
+t/home/michael/Trash//000_.zsh_history
+	/home/michael/.zsh_history
+t/home/michael/Trash//000_.cache
+	/home/michael/.cache
+t/home/michael/Trash//002_timeshift
+	/tmp/timeshift
+t/home/michael/Trash//000_tizonia
+	/home/michael/.config/tizonia
+t/home/michael/Trash//000_mkdir
+	/home/michael/mkdir
+t/home/michael/Trash//000_.makepkg.conf
+	/home/michael/.makepkg.conf
+t/home/michael/Trash//000_\
+	/home/michael/\

@@ -1,0 +1,110 @@
+#explore {
+  height: 64px;
+  margin: auto;
+  min-height: 16px;
+  min-height: 64px;
+  max-height: 64px;
+  padding: 5px 10px;
+  position: relative;
+  background: transparent;
+  color: rgb(193, 193, 193);
+}
+
+#explore span {
+  user-select: none;
+  vertical-align: middle;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+#explore[data-loaded=true] {
+  font-size: 12px;
+  background-image: none;
+  font-family: arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#explore .container {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+
+#explore .explore {
+  top: 0;
+  right: 1px;
+  padding: 0;
+  color: #ccc6c6;
+  font-size: 13px;
+  cursor: pointer;
+  z-index: 1000000;
+  position: absolute;
+}
+
+#explore .close {
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 1px 8px;
+  position: absolute;
+  background-color: transparent;
+}
+
+#explore a {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+#explore .icon {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  font-size: 10px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 48px;
+  display: inline-block;
+  color: rgb(228, 228, 228);
+  font-family: arial, sans-serif;
+}
+
+#explore .name {
+  padding: 0;
+  overflow: hidden;
+  margin: 0 0 0 5px;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  color: rgb(193, 193, 193);
+  font-family: arial, sans-serif;
+}
+
+#explore a, #explore .close, #explore .explore {
+  transition: 300ms ease all;
+  -moz-transition: 300ms ease all;
+  -webkit-transition: 300ms ease all;
+}
+
+#explore .close:hover {
+  color: #FFF;
+  background-color: #C75050;
+}
+
+#explore a:hover, #explore .explore:hover {
+  background-color: rgba(0,0,0,0.03);
+}
+
+#explore .spacer {
+  padding: 0 10px;
+  border-left: solid 1px #909090;
+}

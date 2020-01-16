@@ -1,0 +1,43 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://linuxappstore.io/"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://linuxappstore.io/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://linuxappstore.io/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://linuxappstore.io/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://linuxappstore.io/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://linuxappstore.io/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://linuxappstore.io/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://linuxappstore.io/favicon.ico"
+      } ],
+      "theme_color": "rgba(0,0,0,1)"
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "hgSdURAmnqkxSjvihiIXJ6S/KPc4b8hHp1yT74XQmkM=",
+   "name": "Linux App Store",
+   "version": "2020.1.10.39322"
+}

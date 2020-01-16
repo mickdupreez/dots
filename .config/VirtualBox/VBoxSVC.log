@@ -1,0 +1,65 @@
+00:00:00.001400 main     VirtualBox XPCOM Server 6.1.0 r135406 linux.amd64 (Dec 12 2019 21:11:25) release log
+00:00:00.001402 main     Log opened 2020-01-10T13:40:24.275232000Z
+00:00:00.001402 main     Build Type: release
+00:00:00.001404 main     OS Product: Linux
+00:00:00.001405 main     OS Release: 5.4.8-arch1-1
+00:00:00.001405 main     OS Version: #1 SMP PREEMPT Sat, 04 Jan 2020 23:46:18 +0000
+00:00:00.001419 main     DMI Product Name: XPS 15 9570
+00:00:00.001426 main     DMI Product Version: 
+00:00:00.001429 main     Firmware type: UEFI
+00:00:00.002716 main     Secure Boot: Disabled
+00:00:00.002740 main     Host RAM: 15758MB (15.3GB) total, 15070MB (14.7GB) available
+00:00:00.002742 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002742 main     Process ID: 24484
+00:00:00.002743 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003892 main     IPC socket path: /tmp/.vbox-michael-ipc/ipcd
+00:00:00.111598 nspr-2   VirtualBox: object creation starts
+00:00:00.111750 nspr-2   Home directory: '/home/michael/.config/VirtualBox'
+00:00:00.112330 nspr-2   Loading settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.121326 nspr-2   USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe300)
+00:00:00.121630 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.136711 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp59s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.138144 nspr-2   HostDnsMonitor: initializing
+00:00:00.138714 nspr-2   NAT: resolv.conf: nameserver 172.20.10.1
+00:00:00.138761 nspr-2   HostDnsMonitor: updating information
+00:00:00.138797 nspr-2   HostDnsMonitor: old information
+00:00:00.138806 nspr-2     no server entries
+00:00:00.138814 nspr-2     no domain set
+00:00:00.138822 nspr-2     no search string entries
+00:00:00.138829 nspr-2   HostDnsMonitor: new information
+00:00:00.138837 nspr-2     server 1: 172.20.10.1
+00:00:00.138846 nspr-2     no domain set
+00:00:00.138853 nspr-2     no search string entries
+00:00:00.152625 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.153638 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.167920 nspr-2   Loading settings file "/home/michael/VirtualBox VMs/Mojave/Mojave.vbox" with version "1.15-linux"
+00:00:00.170653 nspr-2   Loading settings file "/home/michael/VirtualBox VMs/ubuntu/ubuntu.vbox" with version "1.16-linux"
+00:00:00.174414 nspr-2   OCI: Local config file '/home/michael/.config/VirtualBox/oci_config' does not exist
+00:00:00.174459 nspr-2   OCI: Original config file '/home/michael/.oci/config' does not exist
+00:00:00.174469 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.174710 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.174749 nspr-2   VirtualBox: object created
+00:00:02.987725 nspr-4   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.007683 nspr-4   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.723869 nspr-4   Launched VM: 1006651760 pid: 24637 (0x603d) frontend: GUI/Qt name: Mojave
+00:00:04.111285 nspr-5   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:00:06.615627 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:06.625175 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp59s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.716962 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp59s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:26.508953 nspr-2   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:26.513594 nspr-5   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:26.525208 nspr-2   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:26.536993 nspr-4   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:26.541775 nspr-3   Saving settings file "/home/michael/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:22.290228 nspr-4   Saving settings file "/home/michael/VirtualBox VMs/Mojave/Mojave.vbox" with version "1.15-linux"
+00:04:22.493495 nspr-7   Saving settings file "/home/michael/VirtualBox VMs/Mojave/Mojave.vbox" with version "1.15-linux"
+00:04:23.209705 nspr-7   Saving settings file "/home/michael/VirtualBox VMs/Mojave/Mojave.vbox" with version "1.15-linux"
+00:04:28.746985 main     VirtualBox: object deletion starts
+00:04:28.747077 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/michael/VirtualBox VMs/Mojave/Mojave.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:04:28.747139 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/michael/VirtualBox VMs/Mojave/Mojave.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:04:28.747595 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/michael/VirtualBox VMs/ubuntu/ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:04:28.748353 main     HostDnsMonitor: shutting down ...
+00:04:28.748884 main     HostDnsMonitor: shut down
+00:04:29.004493 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:04:33.749661 main     {00007f1f5c019d30} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:04:33.750620 main     VirtualBox: object deleted

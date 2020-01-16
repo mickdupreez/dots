@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "message.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "coffee/shared/message.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EAAA,MAAM,CAAC,OAAO,CAAC,SAAS,CAAC,WAAzB,CAAqC,SAAC,GAAD,EAAM,MAAN;AAEnC,QAAA;AAAA;AAAA,SAAA,qCAAA;;MAAA,IAAA,GAAO,gBAAC,OAAO,MAAR,CAAgB,CAAA,MAAA;AAAvB;wCAGA,KAAM,CAAC,CAAC,MAAF,CAAS,GAAT,EAAc;MAAA,GAAA,EAAK,MAAM,CAAC,GAAZ;KAAd;EAL6B,CAArC;AAAA"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "bookmark.js",
+  "sourceRoot": "../../..",
+  "sources": [
+    "coffee/frontend/modules/bookmark.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EAAM,MAAM,CAAC;AACX,QAAA;;;;IAAA,MAAA,GAAS,SAAC,OAAD;aACP,IAAA,CAAK;QAAA,MAAA,EAAQ,iBAAR;QAA2B,OAAA,EAAS,OAApC;OAAL;IADO;;IAGT,QAAC,CAAA,KAAD,GAAQ,SAAC,MAAD;aACN,MAAM,CAAC,KAAP,CAAa;QAAE,KAAA,EAAO,UAAT;QAAqB,QAAA,MAArB;QAA6B,QAAA,MAA7B;OAAb;IADM;;IAER,IAAA,CAAK,QAAC,CAAA,KAAN,EAAa,4DAAb;;IAEA,QAAC,CAAA,WAAD,GAAc,SAAA;aAAG,QAAC,CAAA,KAAD,CAAO,IAAP;IAAH;;;;;AARhB"
+}

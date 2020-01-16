@@ -1,0 +1,334 @@
+{
+   "about": {
+      "description": "Title for the About application screen.",
+      "message": "حول"
+   },
+   "access_190_countries_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant C.",
+      "message": "تمتع بما يزيد عن 190 موقعًا مع HMA! Pro VPN"
+   },
+   "access_190_countries_with_our_vpn": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "تمتع بما يزيد عن 190 موقعًا مع شبكة VPN لدينا."
+   },
+   "access_280_locations_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "تمتع بعدد 280 موقعًا مع HMA! Pro VPN"
+   },
+   "active": {
+      "description": "Label shown when the auto disguise feature is active on the current tab.",
+      "message": "نشط"
+   },
+   "add_website": {
+      "description": "Button label, adds a website to the auto disguise list.",
+      "message": "إضافة موقع ويب"
+   },
+   "another_browser_extension_is_controlling_your_proxy_settings": {
+      "description": "Label on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "يتحكم امتداد متصفح آخر في إعدادات الخادم الوكيل. يُرجى تعطيله حتى يعمل HMA! Web Proxy."
+   },
+   "auto": {
+      "description": "Label indicating automatically selected (usually fastest) location. Shorter variant.",
+      "message": "تلقائيًا"
+   },
+   "auto_disguise": {
+      "description": "Feature name - the location is being automatically disguised based on the URL of the site the user is visiting.",
+      "message": "إخفاء تلقائي"
+   },
+   "auto_disguise_sites": {
+      "description": "Label showing number of configured auto disguise sites. Displayed on its own, should start with capital letter, if not starting with number. Contains ICU message syntax.",
+      "message": "{ sites, plural, one {1 من المواقع} other {# من المواقع} }"
+   },
+   "auto_location": {
+      "description": "Label indicating automatically selected (usually fastest) location. Longer variant.",
+      "message": "موقع تلقائي"
+   },
+   "automatically_disguise_my_location": {
+      "description": "Auto disguise feature description.",
+      "message": "إخفاء موقعي تلقائيًا على مواقع الويب التالية."
+   },
+   "automatically_disguise_your_location_on_specific_websites": {
+      "description": "Auto disguise settings description.",
+      "message": "إخفاء موقعك تلقائيًا على مواقع ويب محددة"
+   },
+   "blank_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a blank (white) tab.",
+      "message": "صفحة فارغة"
+   },
+   "cancel": {
+      "description": "Button label, discards changes in configuration.",
+      "message": "إلغاء الأمر"
+   },
+   "choose_new_location": {
+      "description": "Title on a screen with list of available locations.",
+      "message": "اختيار موقع جديد"
+   },
+   "custom_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a tab with custom URL.",
+      "message": "صفحة مخصصة"
+   },
+   "disable_other_extension": {
+      "description": "Button label, disables conflicting third party extensions.",
+      "message": "تعطيل امتداد آخر"
+   },
+   "disguise_as": {
+      "description": "Label introducing the currently selected proxy location. Shown when main proxy switch is off.",
+      "message": "عرض في"
+   },
+   "disguise_my_ip_address_when_using_browser_based_voice_and_video_chats": {
+      "description": "WebRTC Blocker settings description.",
+      "message": "إخفاء عنوان IP الخاص بي عند استخدام محادثات الصوت والفيديو في المتصفح"
+   },
+   "disguise_my_location_as": {
+      "description": "Label for dropdown where user selects location that will be active on selected website.",
+      "message": "إخفاء موقعي وعرضه في:"
+   },
+   "disguise_yourself_automatically": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "إخفاء موقعك تلقائيًا"
+   },
+   "disguise_yourself_now": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "إخفاء موقعك الآن!"
+   },
+   "disguised_as": {
+      "description": "Label introducing the currently active proxy location. Shown when main proxy switch is on.",
+      "message": "عرض في"
+   },
+   "do_even_more_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "تمتع بمزيد من الميزات مع HMA! Pro VPN"
+   },
+   "download": {
+      "description": "Button label.",
+      "message": "تنزيل"
+   },
+   "edit": {
+      "description": "Button label, edits some entry.",
+      "message": "تحرير"
+   },
+   "feedback": {
+      "description": "Button label, opens website where user can submit application feedback.",
+      "message": "ملاحظات"
+   },
+   "get_hma_pro_vpn": {
+      "description": "Button label, opens a website where user can download the full featured VPN client.",
+      "message": "الحصول على HMA! Pro VPN"
+   },
+   "get_hma_pro_vpn_for_total_protection": {
+      "description": "Toast notification message.",
+      "message": "احصل على HMA! Pro VPN للتمتع بحماية شاملة."
+   },
+   "go_pro_for_optimized_streaming_locations": {
+      "description": "Toast notification message.",
+      "message": "قم بالترقية إلى إصدار Pro للوصول إلى مواقع بث مُحسنة."
+   },
+   "go_pro_for_video_streaming_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "قم بالترقية إلى إصدار Pro للوصول إلى مواقع بث مقاطع الفيديو."
+   },
+   "help": {
+      "description": "Button label, opens website with application help.",
+      "message": "تعليمات"
+   },
+   "hey_no_judgements": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "مرحبًا، لا أحد يُدينك. بُمساعدة خاصية \"إغلاق علامة التبويب\"، يُمكنك على الفور إخفاء جميع علامات تبويب المتصفح عندما يكون المدير بالقرب منك. (ومن ثمَّ إظهارها مرة أخرى عندما يرحل)."
+   },
+   "hide_tabs": {
+      "description": "Button label, triggers the Tab Killer feature.",
+      "message": "إخفاء علامات التبويب"
+   },
+   "instantly_hide_all_open_browser_tabs": {
+      "description": "Tab Killer settings description.",
+      "message": "إخفاء جميع علامات تبويب المتصفح المفتوحة على الفور"
+   },
+   "keyboard_shortcut_to_toggle_tabs": {
+      "description": "Label for dropdown where user selects shortcut for Tab Killer",
+      "message": "اختصارات لوحة المفاتيح لإخفاء/إظهار علامات التبويب:"
+   },
+   "language_code": {
+      "description": "Current language code.",
+      "message": "ar"
+   },
+   "loading_hma": {
+      "description": "Label shown when the application has not yet finished loading.",
+      "message": "جارٍ تحميل HMA!..."
+   },
+   "looking_at_forbidden_sites": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "هل تزور المواقع المحظورة؟"
+   },
+   "looking_at_forbidden_sites_instantly_hide_tabs": {
+      "description": "Description for Tab Killer feature",
+      "message": "هل تزور مواقع محظورة؟ يُمكنك على الفور إخفاء جميع علامات تبويب المتصفح عندما يكون المدير بالقرب منك."
+   },
+   "need_more_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "هل تحتاج إلى مزيد من المواقع؟"
+   },
+   "new_tab_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a new tab.",
+      "message": "صفحة علامة تبويب جديدة"
+   },
+   "next_time": {
+      "description": "Button label, postpones some action for some time.",
+      "message": "المرة القادمة"
+   },
+   "no_modifier_key": {
+      "description": "Label for a keyboard shortcut modifier key dropdown. The actual meaning is that no modifier key (such as Alt or Ctrl) will be used in the shortcut.",
+      "message": "لا شيء"
+   },
+   "note": {
+      "description": "Label/title for some interesting fact about the product.",
+      "message": "ملاحظة"
+   },
+   "off": {
+      "description": "Label describing that something is turned off.",
+      "message": "إيقاف"
+   },
+   "on": {
+      "description": "Label describing that something is turned on.",
+      "message": "تشغيل"
+   },
+   "on_auto_disguise_sites": {
+      "description": "Label indicating the auto disguise feature is on and showing number of configured auto disguise sites. Contains ICU message syntax.",
+      "message": "قيد التشغيل ({ sites, plural, one {1 من المواقع} other {# من المواقع} })"
+   },
+   "on_press_shortcut": {
+      "description": "Label indicating the Tab Killer feature is on and suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "تشغيل (اضغط على \"{shortcut}\")"
+   },
+   "open_tab_thats_safe_for_work": {
+      "description": "Label for dropdown where user selects what kind of a tab will open when tabs are hidden.",
+      "message": "افتح علامة التبويب المسموح بها في العمل:"
+   },
+   "our_keyboard_shortcut_only_works_when_youre_on_an_http_or_https_page": {
+      "description": "Informative text.",
+      "message": "لا تعمل اختصارات المفاتيح لدينا إلا عندما تكون في صفحة http أو https. إذا كنت تستخدم علامة تبويب جديدة أو على صفحة فارغة، فستحتاج إلى فتح امتدادنا والنقر فوق زر \"إغلاق علامة التبويب\" لإخفاء علامات التبويب أو إظهارها."
+   },
+   "press_shortcut": {
+      "description": "Label suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "اضغط على \"{shortcut}\""
+   },
+   "privacy_policy": {
+      "description": "Button label, opens website with the privacy policy for the product.",
+      "message": "سياسة الخصوصية"
+   },
+   "product_description": {
+      "description": "Product description which is used for this application.",
+      "message": "أخفِ موقعك حتى تتمكن من إلغاء حظر مواقع الويب والوصول إلى الأخبار، والبرامج التلفزيونية، والشبكات الاجتماعية المفضلة لديك من أي مكان بصورة مجهولة الهوية."
+   },
+   "product_name": {
+      "description": "Product name which is used for this application.",
+      "message": "HMA! VPN Proxy – إلغاء حظر مواقع الويب والتمتع بالبقاء آمنًا"
+   },
+   "product_name_short": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA!"
+   },
+   "product_name_short_chrome": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! لمتصفح Chrome"
+   },
+   "product_name_short_firefox": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! لمتصفح Firefox"
+   },
+   "rate_us": {
+      "description": "Button label, opens website where user can rate the application.",
+      "message": "قيّمنا"
+   },
+   "remove": {
+      "description": "Button label, removes some entry.",
+      "message": "إزالة"
+   },
+   "reopen_tabs": {
+      "description": "Button label, reopen tabs previously closed by Tab Killer feature.",
+      "message": "إعادة فتح علامات التبويب"
+   },
+   "save": {
+      "description": "Button label, persists changes in configuration.",
+      "message": "حفظ"
+   },
+   "settings": {
+      "description": "Title for the Settings screen.",
+      "message": "الإعدادات"
+   },
+   "some_settings_are_disabled_because_of_another_extension": {
+      "description": "Label indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "تم تعطيل بعض الإعدادات بسبب امتداد آخر."
+   },
+   "stop_privacy_leaks": {
+      "description": "Toast notification title.",
+      "message": "إيقاف تسرب البيانات الشخصية"
+   },
+   "stream_videos_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant D.",
+      "message": "تمتع ببث مقاطع الفيديو باستخدام HMA! Pro VPN"
+   },
+   "stream_yourself_into_a_coma": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "تمتع ببث غير محدود"
+   },
+   "tab_killer": {
+      "description": "Feature name - can hide (close) all browser tabs using a keyboard shortcut.",
+      "message": "إغلاق علامة التبويب"
+   },
+   "tabs_hidden": {
+      "description": "Label showing number of tabs hidden by Tab Killer feature. Contains ICU message syntax.",
+      "message": "{ hidden, plural, one {1 من علامات التبويب المخفية} other {# من علامات التبويب المخفية} }"
+   },
+   "terms_and_conditions": {
+      "description": "Button label, opens website with the terms and conditions for the product.",
+      "message": "الشروط والأحكام"
+   },
+   "this_browser_aint_big_enough": {
+      "description": "Title on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "لا توجد مساحة كافية لكل منّا في هذا المتصفح!"
+   },
+   "too_lazy_to_click_the_on_button": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "هل يصعب عليك النقر فوق زر التشغيل؟ نحن نتفهم شعورك. يُمكن للإخفاء التلقائي إخفاء موقعك تلقائيًا في أي وقت تزور فيه مواقع ويب مُحددة"
+   },
+   "turn_off": {
+      "description": "Button label on the main proxy switch. Turns the proxy off.",
+      "message": "إيقاف التشغيل"
+   },
+   "turn_on": {
+      "description": "Button label on the main proxy switch. Turns the proxy on.",
+      "message": "تشغيل"
+   },
+   "unblock_even_more_content": {
+      "description": "Toast notification title. Refers to unblocking online content blocked in the country of the user.",
+      "message": "فتح مزيد من المحتوى"
+   },
+   "version": {
+      "description": "Label with application version, {version} placeholder stands for the actual version number, e.g. 1.0.345.",
+      "message": "إصدار {version}"
+   },
+   "web_rtc_blocker": {
+      "description": "WebRTC Blocker settings title.",
+      "message": "أداة حظر WebRTC"
+   },
+   "what_are_you_waiting_for": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "ما الذي تنتظره؟ انقر فوق وجهي الجميل لإخفاء موقعك."
+   },
+   "when_i_visit_this_website": {
+      "description": "Label for input where user enters website address.",
+      "message": "عند زيارتي لموقع الويب هذا:"
+   },
+   "your_location_is_auto_disguised": {
+      "description": "Title shown to user when the auto disguise feature is active on the current tab.",
+      "message": "تم إخفاء موقعك تلقائيًا"
+   },
+   "your_location_is_disguised": {
+      "description": "Title shown to user when the main proxy switch is on.",
+      "message": "تم إخفاء موقعك"
+   },
+   "your_location_is_exposed": {
+      "description": "Title shown to user when the main proxy switch is off.",
+      "message": "تم الكشف عن موقعك!"
+   }
+}

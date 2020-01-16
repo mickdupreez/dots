@@ -1,0 +1,175 @@
+[__vrome_images] img {
+  margin: 10px auto;
+  display: block !important; }
+
+[__vrome_hidden] {
+  display: none !important; }
+
+/* Cmd Box */
+#_vrome_cmd_box {
+  position: fixed !important;
+  background: #A6CEEC repeat-x !important;
+  bottom: 1px !important;
+  right: 1px !important;
+  padding: 4px 10px !important;
+  border: #3f86bb 1px solid !important;
+  vertical-align: middle !important;
+  box-shadow: -1px -1px 4px #888 !important;
+  z-index: 2147483646 !important;
+  opacity: 0.85 !important;
+  font-size: 14px !important;
+  width: auto !important; }
+  #_vrome_cmd_box input {
+    background: #eff8ff !important;
+    height: 28px !important;
+    width: 200px !important;
+    border: none !important;
+    opacity: 0.85 !important;
+    margin: 0px !important;
+    padding: 2px !important;
+    margin-left: 6px !important; }
+  #_vrome_cmd_box span {
+    color: #100E35 !important;
+    font-weight: 700 !important;
+    text-shadow: 1px 1px 1px #fff !important; }
+
+/* Hint Mode */
+#__vim_hint_highlight {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important; }
+  #__vim_hint_highlight span {
+    position: absolute !important;
+    background-color: #cc0000 !important;
+    color: #FFF !important;
+    line-height: 12px !important;
+    font-family: Mono, Deja Vu Sans Mono, Monaco;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    padding: 2px !important;
+    z-index: 2147483646 !important;
+    min-width: 10px;
+    text-transform: uppercase;
+    display: block;
+    opacity: 0.7 !important;
+    border-radius: 3px !important;
+    border: 1px solid #990000;
+    box-shadow: rgba(0, 0, 0, 0.29804) 0px 3px 7px 0px; }
+    #__vim_hint_highlight span key {
+      color: white !important;
+      font-size: 6px !important;
+      margin-left: -3px; }
+    #__vim_hint_highlight span[vrome_highlight=active] {
+      background-color: green !important;
+      padding: 5px !important;
+      border: none !important;
+      opacity: 0.8 !important; }
+      #__vim_hint_highlight span[vrome_highlight=active] key {
+        color: #fff !important;
+        font-size: 12px !important;
+        margin-left: 0; }
+    #__vim_hint_highlight span[vrome_highlight=hidden] {
+      display: none; }
+
+/* Search Mode */
+.__vrome_search_highlight {
+  display: inline !important;
+  background-color: yellow !important;
+  color: black !important;
+  font-size: inherit !important;
+  padding: 0 !important; }
+
+#__vrome_search_highlight_current {
+  background-color: #ff9632 !important; }
+
+/* Dialog */
+#__vrome_dialog {
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  width: 750px !important;
+  max-height: 90% !important;
+  background-color: #E2F0FB !important;
+  z-index: 2147483646 !important;
+  font-family: Lucida Grande, Arial, Sans !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  opacity: 0.9 !important;
+  overflow: auto !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  border: 1px solid #3f86bb !important;
+  border-bottom: 0px !important;
+  padding: 10px 5px; }
+  #__vrome_dialog .__vrome_search_result {
+    border-bottom: 1px solid #b3b3b3;
+    padding: 5px 0 5px 20px;
+    opacity: 0.85;
+    height: 22px !important;
+    line-height: 22px !important; }
+    #__vrome_dialog .__vrome_search_result a {
+      display: inline-block;
+      color: black !important;
+      text-decoration: none !important;
+      font-size: inherit;
+      font-weight: normal !important;
+      height: 22px !important;
+      line-height: 22px !important;
+      font-size: 15px !important;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrapis; }
+    #__vrome_dialog .__vrome_search_result .__vrome_quick_num {
+      color: red;
+      font-weight: 700;
+      float: left;
+      margin-left: -1em; }
+  #__vrome_dialog .__vrome_selected {
+    background-color: #8ABEE6 !important; }
+
+#__vrome_dialog_notice {
+  position: fixed !important;
+  background-color: #E2F0FB !important;
+  z-index: 2147483646 !important;
+  border: 1px solid #3f86bb !important;
+  padding: 0 0 0 10px !important;
+  border-top: 0px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  color: black !important;
+  font-family: Lucida Grande, Arial, Sans !important;
+  bottom: 0px !important;
+  opacity: 0.9 !important;
+  overflow: hidden !important; }
+
+/* Help Box */
+#__vrome_help_overlay {
+  opacity: 0.9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 2147483640 !important; }
+  #__vrome_help_overlay #__vrome_help_box {
+    font-size: 12px;
+    background-color: #252525 !important;
+    margin: auto;
+    border: #3f86bb 3px solid !important;
+    width: 90%; }
+    #__vrome_help_overlay #__vrome_help_box table {
+      margin-left: 10px;
+      margin-top: 0px;
+      border: none;
+      border-spacing: 0px;
+      width: 95%;
+      color: #fff;
+      font-size: 1.2em; }
+      #__vrome_help_overlay #__vrome_help_box table tr {
+        text-align: left !important; }
+        #__vrome_help_overlay #__vrome_help_box table tr.head {
+          color: #ff0;
+          font-weight: 700; }
+        #__vrome_help_overlay #__vrome_help_box table tr td {
+          padding: 5px 0 !important; }

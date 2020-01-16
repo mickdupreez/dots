@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Vrome - Options</title>
+    <link href="/styles/options.css" rel="stylesheet" type="text/css">
+
+    <script src="/shared/vendor/jquery.js"></script>
+
+    <script src="/oauth/chrome_ex_oauthsimple.js"></script>
+    <script src="/oauth/chrome_ex_oauth.js"></script>
+    <script src="/oauth/oauth.js"></script>
+
+    <script src="/shared/utils.js"></script>
+    <script src="/shared/settings.js"></script>
+    <script src="/shared/options.js"></script>
+    <script src="/shared/extend.js"></script>
+
+    <script src="/background/vromerc.js"></script>
+    <script src="/background/options/options.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <table style="width: 100%" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td>
+              <img id="icon" alt="" height="32" src="/images/logo.png" width="32">
+              <h1 id="head1">Vrome - Options</h1>
+            </td>
+            <td>
+              <span style="color: white;"> Server Status: </span> <img id="server_status" src="/images/server_offline.png"/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+
+
+    <nav>
+      <ul id="tabs">
+        <li><a href="#dashboard"><span>Dashboard</span></a></li>
+        <li><a href="#setting"><span>Options</span></a></li>
+        <li><a href="#features"><span>Features</span></a></li>
+        <li><a href="#changelog"><span>ChangeLog</span></a></li>
+        <li><a href="#thanks"><span>Thanks</span></a></li>
+        <li><a href="#donates"><span>Donate</span></a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div id="dashboardContent" class="tabContent"></div>
+      <div id="settingContent" class="tabContent"></div>
+      <div id="featuresContent" class="tabContent"></div>
+      <div id="changelogContent" class="tabContent"></div>
+      <div id="thanksContent" class="tabContent"></div>
+      <div id="donatesContent" class="tabContent"></div>
+    </section>
+
+  </body>
+</html>

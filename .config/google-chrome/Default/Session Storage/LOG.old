@@ -1,0 +1,11 @@
+2020/01/16-15:43:18.882 36575 Reusing MANIFEST /home/michael/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/01/16-15:43:18.882 36575 Recovering log #212
+2020/01/16-15:43:18.882 36575 Reusing old log /home/michael/.config/google-chrome/Default/Session Storage/000212.log 
+2020/01/16-15:45:48.747 37107 Level-0 table #216: started
+2020/01/16-15:45:48.749 37107 Level-0 table #216: 20258 bytes OK
+2020/01/16-15:45:48.751 37107 Delete type=0 #212
+2020/01/16-15:47:46.780 37107 Level-0 table #218: started
+2020/01/16-15:47:46.785 37107 Level-0 table #218: 18813 bytes OK
+2020/01/16-15:47:46.787 37107 Delete type=0 #215
+2020/01/16-15:48:45.897 37107 Level-0 table #220: started
+2020/01/16-15:48:45.901 37107 Level-0 table #220: 15484 bytes OK

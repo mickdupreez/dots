@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+sudo mkdir --mode=777 /run/media/BackUp

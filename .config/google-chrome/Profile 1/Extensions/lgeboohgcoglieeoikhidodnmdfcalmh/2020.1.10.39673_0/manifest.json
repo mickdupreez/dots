@@ -1,0 +1,43 @@
+{
+   "app": {
+      "icon_color": "#40C35F",
+      "launch": {
+         "web_url": "http://web.airdroid.com/"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://cdn1.airdroid.com/V3421907171140/theme/stock/images/favicon.ico"
+      } ]
+   },
+   "description": "Your Android, on the Web. Manage your Android from a web browser, all over the air.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "TOfYvNMXAWzZdyScz/6yoA8m/ReMClGfGql31SDPwWI=",
+   "name": "AirDroid Web_Google Pixel 3 XL",
+   "version": "2020.1.10.39673"
+}

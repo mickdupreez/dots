@@ -1,0 +1,334 @@
+{
+   "about": {
+      "description": "Title for the About application screen.",
+      "message": "製品について"
+   },
+   "access_190_countries_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant C.",
+      "message": "HMA! Pro VPN で 190 を超える国から選ぶ"
+   },
+   "access_190_countries_with_our_vpn": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "HMA! の VPN で 190 を超える国にアクセス"
+   },
+   "access_280_locations_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "HMA! Pro VPN で 280 を超える接続先から選ぶ"
+   },
+   "active": {
+      "description": "Label shown when the auto disguise feature is active on the current tab.",
+      "message": "有効"
+   },
+   "add_website": {
+      "description": "Button label, adds a website to the auto disguise list.",
+      "message": "ウェブサイトを追加"
+   },
+   "another_browser_extension_is_controlling_your_proxy_settings": {
+      "description": "Label on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "別のブラウザー拡張機能がプロキシの設定に影響を及ぼしています。無効にすると、HMA! Web Proxy を開始できます。"
+   },
+   "auto": {
+      "description": "Label indicating automatically selected (usually fastest) location. Shorter variant.",
+      "message": "自動"
+   },
+   "auto_disguise": {
+      "description": "Feature name - the location is being automatically disguised based on the URL of the site the user is visiting.",
+      "message": "接続先の自動選択"
+   },
+   "auto_disguise_sites": {
+      "description": "Label showing number of configured auto disguise sites. Displayed on its own, should start with capital letter, if not starting with number. Contains ICU message syntax.",
+      "message": "{ sites, plural, other {# サイト} }"
+   },
+   "auto_location": {
+      "description": "Label indicating automatically selected (usually fastest) location. Longer variant.",
+      "message": "接続先を自動で選択"
+   },
+   "automatically_disguise_my_location": {
+      "description": "Auto disguise feature description.",
+      "message": "次のウェブサイトを閲覧する際に、自動的に所在地を隠します。"
+   },
+   "automatically_disguise_your_location_on_specific_websites": {
+      "description": "Auto disguise settings description.",
+      "message": "特定のウェブサイトを閲覧する際に、自動的に所在地を隠します"
+   },
+   "blank_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a blank (white) tab.",
+      "message": "空白のページ"
+   },
+   "cancel": {
+      "description": "Button label, discards changes in configuration.",
+      "message": "キャンセル"
+   },
+   "choose_new_location": {
+      "description": "Title on a screen with list of available locations.",
+      "message": "新しい接続先を選択"
+   },
+   "custom_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a tab with custom URL.",
+      "message": "カスタム ページ"
+   },
+   "disable_other_extension": {
+      "description": "Button label, disables conflicting third party extensions.",
+      "message": "別の拡張機能を無効にする"
+   },
+   "disguise_as": {
+      "description": "Label introducing the currently selected proxy location. Shown when main proxy switch is off.",
+      "message": "接続先"
+   },
+   "disguise_my_ip_address_when_using_browser_based_voice_and_video_chats": {
+      "description": "WebRTC Blocker settings description.",
+      "message": "ブラウザー ベースの音声チャットやビデオ チャットを使用する際に、自分の IP アドレスを隠します"
+   },
+   "disguise_my_location_as": {
+      "description": "Label for dropdown where user selects location that will be active on selected website.",
+      "message": "接続先に次を選択"
+   },
+   "disguise_yourself_automatically": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "自動的に所在地を隠す"
+   },
+   "disguise_yourself_now": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "今すぐ所在地を隠しましょう！"
+   },
+   "disguised_as": {
+      "description": "Label introducing the currently active proxy location. Shown when main proxy switch is on.",
+      "message": "接続先"
+   },
+   "do_even_more_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "HMA! Pro VPN でより充実したサービスを受ける"
+   },
+   "download": {
+      "description": "Button label.",
+      "message": "ダウンロード"
+   },
+   "edit": {
+      "description": "Button label, edits some entry.",
+      "message": "編集"
+   },
+   "feedback": {
+      "description": "Button label, opens website where user can submit application feedback.",
+      "message": "フィードバック"
+   },
+   "get_hma_pro_vpn": {
+      "description": "Button label, opens a website where user can download the full featured VPN client.",
+      "message": "HMA! Pro VPN を購入"
+   },
+   "get_hma_pro_vpn_for_total_protection": {
+      "description": "Toast notification message.",
+      "message": "HMA! Pro VPN でセキュリティを確保しましょう。"
+   },
+   "go_pro_for_optimized_streaming_locations": {
+      "description": "Toast notification message.",
+      "message": "Pro を購入してストリーミングに最適な接続先を選びましょう。"
+   },
+   "go_pro_for_video_streaming_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Pro を購入して動画をストリーミングする"
+   },
+   "help": {
+      "description": "Button label, opens website with application help.",
+      "message": "ヘルプ"
+   },
+   "hey_no_judgements": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "責めているわけではありません。上司が近くにいるときは、タブ キラーを使うとブラウザーのタブを即座にすべて隠せます（上司が去ったらまた表示できます）。"
+   },
+   "hide_tabs": {
+      "description": "Button label, triggers the Tab Killer feature.",
+      "message": "タブを隠す"
+   },
+   "instantly_hide_all_open_browser_tabs": {
+      "description": "Tab Killer settings description.",
+      "message": "開いているブラウザーのすべてのタブを即座に隠します"
+   },
+   "keyboard_shortcut_to_toggle_tabs": {
+      "description": "Label for dropdown where user selects shortcut for Tab Killer",
+      "message": "タブを非表示または表示するためのキーボード ショートカット"
+   },
+   "language_code": {
+      "description": "Current language code.",
+      "message": "ja"
+   },
+   "loading_hma": {
+      "description": "Label shown when the application has not yet finished loading.",
+      "message": "HMA! を読み込み中…"
+   },
+   "looking_at_forbidden_sites": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "ウェブサイトをこっそり閲覧中ですか？"
+   },
+   "looking_at_forbidden_sites_instantly_hide_tabs": {
+      "description": "Description for Tab Killer feature",
+      "message": "ウェブサイトをこっそり閲覧中ですか？上司が近くに来たときに、ブラウザーのすべてのタブを即座に隠せます。"
+   },
+   "need_more_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "もっと接続先が必要ですか？"
+   },
+   "new_tab_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a new tab.",
+      "message": "新しいタブのページ"
+   },
+   "next_time": {
+      "description": "Button label, postpones some action for some time.",
+      "message": "今はしない"
+   },
+   "no_modifier_key": {
+      "description": "Label for a keyboard shortcut modifier key dropdown. The actual meaning is that no modifier key (such as Alt or Ctrl) will be used in the shortcut.",
+      "message": "なし"
+   },
+   "note": {
+      "description": "Label/title for some interesting fact about the product.",
+      "message": "メモ"
+   },
+   "off": {
+      "description": "Label describing that something is turned off.",
+      "message": "オフ"
+   },
+   "on": {
+      "description": "Label describing that something is turned on.",
+      "message": "オン"
+   },
+   "on_auto_disguise_sites": {
+      "description": "Label indicating the auto disguise feature is on and showing number of configured auto disguise sites. Contains ICU message syntax.",
+      "message": "オン（ { sites, plural, other {# サイト} } ）"
+   },
+   "on_press_shortcut": {
+      "description": "Label indicating the Tab Killer feature is on and suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "オン（\"{shortcut}\" を押す）"
+   },
+   "open_tab_thats_safe_for_work": {
+      "description": "Label for dropdown where user selects what kind of a tab will open when tabs are hidden.",
+      "message": "仕事に適したタブを開く"
+   },
+   "our_keyboard_shortcut_only_works_when_youre_on_an_http_or_https_page": {
+      "description": "Informative text.",
+      "message": "キーボード ショートカットの使用は、http または https のウェブサイトを閲覧しているときに限ります。新しいタブ、または空白のページでは、拡張機能を開いてタブ キラーをクリックすると、タブを非表示または表示できます。"
+   },
+   "press_shortcut": {
+      "description": "Label suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "\"{shortcut}\" を押す"
+   },
+   "privacy_policy": {
+      "description": "Button label, opens website with the privacy policy for the product.",
+      "message": "プライバシー ポリシー"
+   },
+   "product_description": {
+      "description": "Product description which is used for this application.",
+      "message": "自分の所在地を隠してウェブサイトのブロックを解除し、どんな場所からも、お気に入りのニュースやテレビ番組、SNS を匿名で楽しみましょう。"
+   },
+   "product_name": {
+      "description": "Product name which is used for this application.",
+      "message": "HMA! VPN Proxy - 安全性を保ちながら、ウェブサイトのブロックを解除"
+   },
+   "product_name_short": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA!"
+   },
+   "product_name_short_chrome": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! Chrome 版"
+   },
+   "product_name_short_firefox": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! Firefox 版"
+   },
+   "rate_us": {
+      "description": "Button label, opens website where user can rate the application.",
+      "message": "評価する"
+   },
+   "remove": {
+      "description": "Button label, removes some entry.",
+      "message": "削除"
+   },
+   "reopen_tabs": {
+      "description": "Button label, reopen tabs previously closed by Tab Killer feature.",
+      "message": "タブを再度開く"
+   },
+   "save": {
+      "description": "Button label, persists changes in configuration.",
+      "message": "保存"
+   },
+   "settings": {
+      "description": "Title for the Settings screen.",
+      "message": "設定"
+   },
+   "some_settings_are_disabled_because_of_another_extension": {
+      "description": "Label indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "別の拡張機能により、いくつかの設定が無効にされました。"
+   },
+   "stop_privacy_leaks": {
+      "description": "Toast notification title.",
+      "message": "個人情報漏えいを防ぐ"
+   },
+   "stream_videos_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant D.",
+      "message": "HMA! Pro VPN で動画をストリーミングする"
+   },
+   "stream_yourself_into_a_coma": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "ストリーミングに没頭する"
+   },
+   "tab_killer": {
+      "description": "Feature name - can hide (close) all browser tabs using a keyboard shortcut.",
+      "message": "タブ キラー"
+   },
+   "tabs_hidden": {
+      "description": "Label showing number of tabs hidden by Tab Killer feature. Contains ICU message syntax.",
+      "message": "{ hidden, plural, other {# 個非表示} }"
+   },
+   "terms_and_conditions": {
+      "description": "Button label, opens website with the terms and conditions for the product.",
+      "message": "ご利用条件"
+   },
+   "this_browser_aint_big_enough": {
+      "description": "Title on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "ブラウザーのパワーが足りません！"
+   },
+   "too_lazy_to_click_the_on_button": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "クリックすら面倒ですか？わかります。自動設定を選択すると、特定のウェブサイトを閲覧する際に、常に自動で所在地を隠せます"
+   },
+   "turn_off": {
+      "description": "Button label on the main proxy switch. Turns the proxy off.",
+      "message": "オフにする"
+   },
+   "turn_on": {
+      "description": "Button label on the main proxy switch. Turns the proxy on.",
+      "message": "オンにする"
+   },
+   "unblock_even_more_content": {
+      "description": "Toast notification title. Refers to unblocking online content blocked in the country of the user.",
+      "message": "コンテンツのブロックをさらに解除"
+   },
+   "version": {
+      "description": "Label with application version, {version} placeholder stands for the actual version number, e.g. 1.0.345.",
+      "message": "バージョン {version}"
+   },
+   "web_rtc_blocker": {
+      "description": "WebRTC Blocker settings title.",
+      "message": "WebRTC ブロッカー"
+   },
+   "what_are_you_waiting_for": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "ぼんやり見ている場合ではありません。私の顔をクリックして、所在地を隠しましょう。"
+   },
+   "when_i_visit_this_website": {
+      "description": "Label for input where user enters website address.",
+      "message": "このウェブサイトを閲覧するとき"
+   },
+   "your_location_is_auto_disguised": {
+      "description": "Title shown to user when the auto disguise feature is active on the current tab.",
+      "message": "所在地を自動的に隠します"
+   },
+   "your_location_is_disguised": {
+      "description": "Title shown to user when the main proxy switch is on.",
+      "message": "所在地を隠しました"
+   },
+   "your_location_is_exposed": {
+      "description": "Title shown to user when the main proxy switch is off.",
+      "message": "所在地が人目にさらされています！"
+   }
+}

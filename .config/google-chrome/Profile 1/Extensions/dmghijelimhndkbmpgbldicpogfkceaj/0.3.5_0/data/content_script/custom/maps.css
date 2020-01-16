@@ -1,0 +1,39 @@
+#scene {
+  background: #222 !important;
+}
+
+#pane .widget-pane,
+#app-container #scene {
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  filter: invert(100%) hue-rotate(180deg);
+  -webkit-filter: invert(100%) hue-rotate(180deg);
+}
+
+#pane .widget-pane .section-hero-header-hero,
+#pane .widget-pane .section-image-pack-button,
+#pane .widget-pane .section-directions-omnibox {
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  filter: invert(100%) hue-rotate(180deg);
+  -webkit-filter: invert(100%) hue-rotate(180deg);
+}
+
+.HzV7m-tJHJj,
+.qqvbed-tJHJj,
+.qqvbed-tJHJj-fmcmS,
+.HzV7m-tJHJj>.i4ewOd-r4nke {
+  color: #616161 !important;
+  background-color: #c5c5c5 !important;
+}
+
+.section-compact-filters,
+.section-omnibox-spacer-blue,
+.section-compact-filters-compact-footer {
+  opacity: 0.7;
+}
+
+.section-filter-label,
+.section-filter-user-rating-select {
+  color: #000 !important;
+}

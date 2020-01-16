@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "clipboard.js",
+  "sourceRoot": "../../..",
+  "sources": [
+    "coffee/frontend/modules/clipboard.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EAAM,MAAM,CAAC;;;IACX,SAAC,CAAA,IAAD,GAAO,SAAC,KAAD;aACL,IAAA,CAAK;QAAA,MAAA,EAAQ,gBAAR;QAA0B,KAAA,EAAO,KAAjC;OAAL;IADK;;;;;AADT"
+}

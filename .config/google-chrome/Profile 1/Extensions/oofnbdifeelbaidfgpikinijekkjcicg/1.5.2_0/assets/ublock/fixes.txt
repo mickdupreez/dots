@@ -1,0 +1,5 @@
+# Filters optimized for uBlock
+
+#Google Analytics Web Page
+@@||google-analytics.com^
+@@||*$domain=analytics.google.com

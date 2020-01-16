@@ -1,0 +1,70 @@
+{
+   "app": {
+      "icon_color": "#3DDB83",
+      "launch": {
+         "web_url": "https://developer.android.com/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-72x72.png"
+      }, {
+         "size": 48,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-72x72.png"
+      }, {
+         "size": 64,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-72x72.png"
+      }, {
+         "size": 72,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-72x72.png"
+      }, {
+         "size": 96,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-96x96.png"
+      }, {
+         "size": 128,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-128x128.png"
+      }, {
+         "size": 144,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-144x144.png"
+      }, {
+         "size": 152,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-152x152.png"
+      }, {
+         "size": 192,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-192x192.png"
+      }, {
+         "size": 256,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-384x384.png"
+      }, {
+         "size": 384,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-384x384.png"
+      }, {
+         "size": 512,
+         "url": "https://developer.android.com/_pwa/android/icons/icon-512x512.png"
+      } ],
+      "theme_color": "rgba(247,249,250,1)"
+   },
+   "description": "\u003C!-- hide description -->",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "152": "icons/152.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "384": "icons/384.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "72": "icons/72.png",
+      "96": "icons/96.png"
+   },
+   "key": "vJH+jAW1cFh3WwbPjzJ2ouJjVasTgFq+9l92FjEJM+M=",
+   "name": "Android Developers",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://developer.android.com/*" ],
+         "title": "Android Developers"
+      }
+   },
+   "version": "2020.1.10.39673"
+}

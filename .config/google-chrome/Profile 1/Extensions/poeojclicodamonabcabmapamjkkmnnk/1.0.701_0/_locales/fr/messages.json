@@ -1,0 +1,334 @@
+{
+   "about": {
+      "description": "Title for the About application screen.",
+      "message": "À propos"
+   },
+   "access_190_countries_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant C.",
+      "message": "Accédez à plus de 190 pays avec HMA! Pro VPN"
+   },
+   "access_190_countries_with_our_vpn": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "Accédez à plus de 190 pays avec notre VPN."
+   },
+   "access_280_locations_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Accédez à 280 emplacements avec HMA! Pro VPN"
+   },
+   "active": {
+      "description": "Label shown when the auto disguise feature is active on the current tab.",
+      "message": "Actif"
+   },
+   "add_website": {
+      "description": "Button label, adds a website to the auto disguise list.",
+      "message": "Ajouter un site Web"
+   },
+   "another_browser_extension_is_controlling_your_proxy_settings": {
+      "description": "Label on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "Une autre extension du navigateur contrôle vos paramètres de proxy. Veuillez la désactiver pour que HMA! Web Proxy puisse fonctionner."
+   },
+   "auto": {
+      "description": "Label indicating automatically selected (usually fastest) location. Shorter variant.",
+      "message": "Automatique"
+   },
+   "auto_disguise": {
+      "description": "Feature name - the location is being automatically disguised based on the URL of the site the user is visiting.",
+      "message": "Camouflage automatique"
+   },
+   "auto_disguise_sites": {
+      "description": "Label showing number of configured auto disguise sites. Displayed on its own, should start with capital letter, if not starting with number. Contains ICU message syntax.",
+      "message": "{ sites, plural, one {1 site} other {# sites} }"
+   },
+   "auto_location": {
+      "description": "Label indicating automatically selected (usually fastest) location. Longer variant.",
+      "message": "Emplacement automatique"
+   },
+   "automatically_disguise_my_location": {
+      "description": "Auto disguise feature description.",
+      "message": "Masquer automatiquement mon emplacement sur les sites Web suivants."
+   },
+   "automatically_disguise_your_location_on_specific_websites": {
+      "description": "Auto disguise settings description.",
+      "message": "Masquer automatiquement votre emplacement sur des sites Web spécifiques"
+   },
+   "blank_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a blank (white) tab.",
+      "message": "Page blanche"
+   },
+   "cancel": {
+      "description": "Button label, discards changes in configuration.",
+      "message": "Annuler"
+   },
+   "choose_new_location": {
+      "description": "Title on a screen with list of available locations.",
+      "message": "Choisir nouvel emplacement"
+   },
+   "custom_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a tab with custom URL.",
+      "message": "Page personnalisée"
+   },
+   "disable_other_extension": {
+      "description": "Button label, disables conflicting third party extensions.",
+      "message": "Désactiver une autre extension"
+   },
+   "disguise_as": {
+      "description": "Label introducing the currently selected proxy location. Shown when main proxy switch is off.",
+      "message": "Apparaît en tant que"
+   },
+   "disguise_my_ip_address_when_using_browser_based_voice_and_video_chats": {
+      "description": "WebRTC Blocker settings description.",
+      "message": "Masquer mon adresse IP lorsque j'utilise des discussions vocales et vidéo sur des navigateurs"
+   },
+   "disguise_my_location_as": {
+      "description": "Label for dropdown where user selects location that will be active on selected website.",
+      "message": "Afficher mon emplacement en tant que :"
+   },
+   "disguise_yourself_automatically": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "Camouflez-vous automatiquement"
+   },
+   "disguise_yourself_now": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "Camouflez-vous dès maintenant !"
+   },
+   "disguised_as": {
+      "description": "Label introducing the currently active proxy location. Shown when main proxy switch is on.",
+      "message": "Emplacement masqué"
+   },
+   "do_even_more_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "Encore plus de possibilités avec HMA! Pro VPN"
+   },
+   "download": {
+      "description": "Button label.",
+      "message": "Télécharger"
+   },
+   "edit": {
+      "description": "Button label, edits some entry.",
+      "message": "Modifier"
+   },
+   "feedback": {
+      "description": "Button label, opens website where user can submit application feedback.",
+      "message": "Commentaires"
+   },
+   "get_hma_pro_vpn": {
+      "description": "Button label, opens a website where user can download the full featured VPN client.",
+      "message": "Obtenir HMA! Pro VPN"
+   },
+   "get_hma_pro_vpn_for_total_protection": {
+      "description": "Toast notification message.",
+      "message": "Obtenez HMA! Pro VPN pour une protection totale."
+   },
+   "go_pro_for_optimized_streaming_locations": {
+      "description": "Toast notification message.",
+      "message": "Passez à la version Pro pour optimiser les emplacements de diffusion."
+   },
+   "go_pro_for_video_streaming_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Passez à la version Pro pour les emplacements optimisés streaming."
+   },
+   "help": {
+      "description": "Button label, opens website with application help.",
+      "message": "Aide"
+   },
+   "hey_no_judgements": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "Nous ne vous jugeons pas. Le Masque d'onglets peut masquer instantanément tous les onglets de votre navigateur lorsque votre chef rôde dans les parages. (Et les afficher à nouveau lorsqu'il est parti.)"
+   },
+   "hide_tabs": {
+      "description": "Button label, triggers the Tab Killer feature.",
+      "message": "Masquer les onglets"
+   },
+   "instantly_hide_all_open_browser_tabs": {
+      "description": "Tab Killer settings description.",
+      "message": "Masquer instantanément tous les onglets de navigateur ouverts"
+   },
+   "keyboard_shortcut_to_toggle_tabs": {
+      "description": "Label for dropdown where user selects shortcut for Tab Killer",
+      "message": "Raccourci clavier pour masquer/afficher les onglets :"
+   },
+   "language_code": {
+      "description": "Current language code.",
+      "message": "fr"
+   },
+   "loading_hma": {
+      "description": "Label shown when the application has not yet finished loading.",
+      "message": "Chargement de HMA!..."
+   },
+   "looking_at_forbidden_sites": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "Vous consultez des sites interdits ?"
+   },
+   "looking_at_forbidden_sites_instantly_hide_tabs": {
+      "description": "Description for Tab Killer feature",
+      "message": "Vous consultez des sites interdits ? Masquez instantanément tous les onglets de votre navigateur lorsque votre chef rôde dans les parages."
+   },
+   "need_more_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "Besoin de plus d'emplacements ?"
+   },
+   "new_tab_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a new tab.",
+      "message": "Page Nouvel onglet"
+   },
+   "next_time": {
+      "description": "Button label, postpones some action for some time.",
+      "message": "Plus tard"
+   },
+   "no_modifier_key": {
+      "description": "Label for a keyboard shortcut modifier key dropdown. The actual meaning is that no modifier key (such as Alt or Ctrl) will be used in the shortcut.",
+      "message": "Aucun"
+   },
+   "note": {
+      "description": "Label/title for some interesting fact about the product.",
+      "message": "Remarque"
+   },
+   "off": {
+      "description": "Label describing that something is turned off.",
+      "message": "Désactivé"
+   },
+   "on": {
+      "description": "Label describing that something is turned on.",
+      "message": "Activé"
+   },
+   "on_auto_disguise_sites": {
+      "description": "Label indicating the auto disguise feature is on and showing number of configured auto disguise sites. Contains ICU message syntax.",
+      "message": "Sur ({ sites, plural, one {1 site} other {# sites} })"
+   },
+   "on_press_shortcut": {
+      "description": "Label indicating the Tab Killer feature is on and suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "Lorsque (j'appuie sur « {shortcut} »)"
+   },
+   "open_tab_thats_safe_for_work": {
+      "description": "Label for dropdown where user selects what kind of a tab will open when tabs are hidden.",
+      "message": "Ouvrez un onglet sûr pour le travail :"
+   },
+   "our_keyboard_shortcut_only_works_when_youre_on_an_http_or_https_page": {
+      "description": "Informative text.",
+      "message": "Notre raccourci clavier fonctionne uniquement lorsque vous êtes sur une page http ou https. Si vous êtes sur une page Nouvel onglet ou une page blanche, vous devrez ouvrir notre extension et cliquer sur le bouton Masque d'onglets pour masquer ou afficher les onglets."
+   },
+   "press_shortcut": {
+      "description": "Label suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "Appuyez sur « {shortcut} »"
+   },
+   "privacy_policy": {
+      "description": "Button label, opens website with the privacy policy for the product.",
+      "message": "Politique de confidentialité"
+   },
+   "product_description": {
+      "description": "Product description which is used for this application.",
+      "message": "Masquez votre emplacement pour débloquer des sites et accéder en toute confidentialité à vos actualités, séries TV et réseaux sociaux préférés, où que vous soyez."
+   },
+   "product_name": {
+      "description": "Product name which is used for this application.",
+      "message": "HMA! VPN Proxy - Débloquez des sites Web et restez protégé"
+   },
+   "product_name_short": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA!"
+   },
+   "product_name_short_chrome": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! pour Chrome"
+   },
+   "product_name_short_firefox": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! pour Firefox"
+   },
+   "rate_us": {
+      "description": "Button label, opens website where user can rate the application.",
+      "message": "Nous évaluer"
+   },
+   "remove": {
+      "description": "Button label, removes some entry.",
+      "message": "Supprimer"
+   },
+   "reopen_tabs": {
+      "description": "Button label, reopen tabs previously closed by Tab Killer feature.",
+      "message": "Rouvrir les onglets"
+   },
+   "save": {
+      "description": "Button label, persists changes in configuration.",
+      "message": "Enregistrer"
+   },
+   "settings": {
+      "description": "Title for the Settings screen.",
+      "message": "Paramètres"
+   },
+   "some_settings_are_disabled_because_of_another_extension": {
+      "description": "Label indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "Certains paramètres sont désactivés à cause d'une autre extension."
+   },
+   "stop_privacy_leaks": {
+      "description": "Toast notification title.",
+      "message": "Arrêtez les failles de sécurité"
+   },
+   "stream_videos_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant D.",
+      "message": "Regardez des vidéos avec HMA! Pro VPN"
+   },
+   "stream_yourself_into_a_coma": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Regardez des vidéos jusqu'à plus soif"
+   },
+   "tab_killer": {
+      "description": "Feature name - can hide (close) all browser tabs using a keyboard shortcut.",
+      "message": "Masque d'onglets"
+   },
+   "tabs_hidden": {
+      "description": "Label showing number of tabs hidden by Tab Killer feature. Contains ICU message syntax.",
+      "message": "{ hidden, plural, one {1 onglet masqué} other {# onglets masqués} }"
+   },
+   "terms_and_conditions": {
+      "description": "Button label, opens website with the terms and conditions for the product.",
+      "message": "Conditions générales"
+   },
+   "this_browser_aint_big_enough": {
+      "description": "Title on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "Ce navigateur est trop petit pour nous deux !"
+   },
+   "too_lazy_to_click_the_on_button": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "Vous avez la flemme de cliquer sur le bouton ? Nous comprenons. Le Camouflage automatique peut masquer automatiquement votre emplacement lorsque vous visitez certains sites Web spécifiques"
+   },
+   "turn_off": {
+      "description": "Button label on the main proxy switch. Turns the proxy off.",
+      "message": "Désactiver"
+   },
+   "turn_on": {
+      "description": "Button label on the main proxy switch. Turns the proxy on.",
+      "message": "Activer"
+   },
+   "unblock_even_more_content": {
+      "description": "Toast notification title. Refers to unblocking online content blocked in the country of the user.",
+      "message": "Débloquez encore plus de contenu"
+   },
+   "version": {
+      "description": "Label with application version, {version} placeholder stands for the actual version number, e.g. 1.0.345.",
+      "message": "Version {version}"
+   },
+   "web_rtc_blocker": {
+      "description": "WebRTC Blocker settings title.",
+      "message": "WebRTC Blocker"
+   },
+   "what_are_you_waiting_for": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "Qu'attendez-vous ? Cliquez sur mon beau visage pour masquer votre emplacement."
+   },
+   "when_i_visit_this_website": {
+      "description": "Label for input where user enters website address.",
+      "message": "Lorsque je visite ce site Web :"
+   },
+   "your_location_is_auto_disguised": {
+      "description": "Title shown to user when the auto disguise feature is active on the current tab.",
+      "message": "Votre emplacement est automatiquement masqué"
+   },
+   "your_location_is_disguised": {
+      "description": "Title shown to user when the main proxy switch is on.",
+      "message": "Votre emplacement est masqué"
+   },
+   "your_location_is_exposed": {
+      "description": "Title shown to user when the main proxy switch is off.",
+      "message": "Votre emplacement est exposé !"
+   }
+}

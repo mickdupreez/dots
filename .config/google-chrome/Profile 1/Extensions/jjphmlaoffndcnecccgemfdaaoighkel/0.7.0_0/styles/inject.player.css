@@ -1,0 +1,27 @@
+
+.ytp-chrome-bottom {
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.ytp-progress-bar-container {
+    margin-left: 12px;
+    width: calc(100% - 24px) !important;
+}
+
+.ytp-chrome-controls .ytp-play-button {
+    width: 40px !important;
+}
+
+.ytp-time-display {
+    padding: 0 !important;
+    letter-spacing: -0.5px !important;
+    width: 1px !important;
+}
+
+.ytp-cards-teaser,
+.ytp-iv-player-content,
+.ytp-cards-button {
+    display: none !important;
+}
+

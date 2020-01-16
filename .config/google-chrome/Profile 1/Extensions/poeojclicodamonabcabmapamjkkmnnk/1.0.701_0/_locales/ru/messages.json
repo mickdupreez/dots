@@ -1,0 +1,334 @@
+{
+   "about": {
+      "description": "Title for the About application screen.",
+      "message": "О программе"
+   },
+   "access_190_countries_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant C.",
+      "message": "Доступ через более 190 стран с HMA! Pro VPN"
+   },
+   "access_190_countries_with_our_vpn": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "Доступ через более 190 стран с помощью нашего VPN-сервиса."
+   },
+   "access_280_locations_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Доступ к 280 местоположениям с HMA! Pro VPN"
+   },
+   "active": {
+      "description": "Label shown when the auto disguise feature is active on the current tab.",
+      "message": "Активно"
+   },
+   "add_website": {
+      "description": "Button label, adds a website to the auto disguise list.",
+      "message": "Добавить сайт"
+   },
+   "another_browser_extension_is_controlling_your_proxy_settings": {
+      "description": "Label on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "Другое расширение браузера контролирует ваши настройки прокси-сервера. Отключите его, чтобы прокси-сервер HMA! мог работать."
+   },
+   "auto": {
+      "description": "Label indicating automatically selected (usually fastest) location. Shorter variant.",
+      "message": "Авто"
+   },
+   "auto_disguise": {
+      "description": "Feature name - the location is being automatically disguised based on the URL of the site the user is visiting.",
+      "message": "Автоматическая маскировка"
+   },
+   "auto_disguise_sites": {
+      "description": "Label showing number of configured auto disguise sites. Displayed on its own, should start with capital letter, if not starting with number. Contains ICU message syntax.",
+      "message": "{ sites, plural, one {1 сайт} few {# сайта} many {# сайтов} other {# сайта} }"
+   },
+   "auto_location": {
+      "description": "Label indicating automatically selected (usually fastest) location. Longer variant.",
+      "message": "Автоматически выбранное местоположение"
+   },
+   "automatically_disguise_my_location": {
+      "description": "Auto disguise feature description.",
+      "message": "Автоматически скрывать мое местоположение на следующих сайтах"
+   },
+   "automatically_disguise_your_location_on_specific_websites": {
+      "description": "Auto disguise settings description.",
+      "message": "Автоматически скрывайте свое местоположение на определенных сайтах"
+   },
+   "blank_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a blank (white) tab.",
+      "message": "Пустая страница"
+   },
+   "cancel": {
+      "description": "Button label, discards changes in configuration.",
+      "message": "Отмена"
+   },
+   "choose_new_location": {
+      "description": "Title on a screen with list of available locations.",
+      "message": "Выбор нового местоположения"
+   },
+   "custom_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a tab with custom URL.",
+      "message": "Настраиваемая страница"
+   },
+   "disable_other_extension": {
+      "description": "Button label, disables conflicting third party extensions.",
+      "message": "Отключить другое расширение"
+   },
+   "disguise_as": {
+      "description": "Label introducing the currently selected proxy location. Shown when main proxy switch is off.",
+      "message": "Отображать как"
+   },
+   "disguise_my_ip_address_when_using_browser_based_voice_and_video_chats": {
+      "description": "WebRTC Blocker settings description.",
+      "message": "Скрывать IP-адрес при использовании голосовых и видеочатов в браузере"
+   },
+   "disguise_my_location_as": {
+      "description": "Label for dropdown where user selects location that will be active on selected website.",
+      "message": "Отображать мое местоположение как:"
+   },
+   "disguise_yourself_automatically": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "Маскируйте свое местоположение автоматически"
+   },
+   "disguise_yourself_now": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "Замаскируйте свое местоположение!"
+   },
+   "disguised_as": {
+      "description": "Label introducing the currently active proxy location. Shown when main proxy switch is on.",
+      "message": "Отображается как"
+   },
+   "do_even_more_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "Еще больше возможностей HMA! Pro VPN"
+   },
+   "download": {
+      "description": "Button label.",
+      "message": "Скачать"
+   },
+   "edit": {
+      "description": "Button label, edits some entry.",
+      "message": "Изменить"
+   },
+   "feedback": {
+      "description": "Button label, opens website where user can submit application feedback.",
+      "message": "Отзыв"
+   },
+   "get_hma_pro_vpn": {
+      "description": "Button label, opens a website where user can download the full featured VPN client.",
+      "message": "Установить HMA! Pro VPN"
+   },
+   "get_hma_pro_vpn_for_total_protection": {
+      "description": "Toast notification message.",
+      "message": "Загрузите HMA! Pro VPN для полной защиты."
+   },
+   "go_pro_for_optimized_streaming_locations": {
+      "description": "Toast notification message.",
+      "message": "Перейдите на версию Pro для доступа к оптимизированным для видео серверам."
+   },
+   "go_pro_for_video_streaming_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Перейдите на версию Pro для доступа к серверам для стриминга."
+   },
+   "help": {
+      "description": "Button label, opens website with application help.",
+      "message": "Справка"
+   },
+   "hey_no_judgements": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "Никто не осуждает. С помощью функции «Закрытие вкладок» можно мгновенно скрыть все вкладки браузера, если рядом начальник. (И снова их отобразить, когда он уйдет.)"
+   },
+   "hide_tabs": {
+      "description": "Button label, triggers the Tab Killer feature.",
+      "message": "Скрыть вкладки"
+   },
+   "instantly_hide_all_open_browser_tabs": {
+      "description": "Tab Killer settings description.",
+      "message": "Мгновенно скрывайте все открытые вкладки браузера"
+   },
+   "keyboard_shortcut_to_toggle_tabs": {
+      "description": "Label for dropdown where user selects shortcut for Tab Killer",
+      "message": "Сочетание клавиш для скрытия и отображения вкладок:"
+   },
+   "language_code": {
+      "description": "Current language code.",
+      "message": "ru"
+   },
+   "loading_hma": {
+      "description": "Label shown when the application has not yet finished loading.",
+      "message": "Загрузка HMA!.."
+   },
+   "looking_at_forbidden_sites": {
+      "description": "Title on an onboarding tooltip.",
+      "message": "Посещаете запрещенные сайты?"
+   },
+   "looking_at_forbidden_sites_instantly_hide_tabs": {
+      "description": "Description for Tab Killer feature",
+      "message": "Посещаете запрещенные сайты? Мгновенно скрывайте все вкладки браузера, когда рядом начальник."
+   },
+   "need_more_locations": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant A.",
+      "message": "Нужно больше местоположений?"
+   },
+   "new_tab_page": {
+      "description": "Label for safe page dropdown item. Triggering the Tab Killer will result in opening a new tab.",
+      "message": "Страница новой вкладки"
+   },
+   "next_time": {
+      "description": "Button label, postpones some action for some time.",
+      "message": "В следующий раз"
+   },
+   "no_modifier_key": {
+      "description": "Label for a keyboard shortcut modifier key dropdown. The actual meaning is that no modifier key (such as Alt or Ctrl) will be used in the shortcut.",
+      "message": "Нет"
+   },
+   "note": {
+      "description": "Label/title for some interesting fact about the product.",
+      "message": "Примечание"
+   },
+   "off": {
+      "description": "Label describing that something is turned off.",
+      "message": "Выкл."
+   },
+   "on": {
+      "description": "Label describing that something is turned on.",
+      "message": "Вкл."
+   },
+   "on_auto_disguise_sites": {
+      "description": "Label indicating the auto disguise feature is on and showing number of configured auto disguise sites. Contains ICU message syntax.",
+      "message": "На ({ sites, plural, =0 {0 сайтов} one {1 сайте} few {# сайтах} many {# сайтах} other {# сайта} })"
+   },
+   "on_press_shortcut": {
+      "description": "Label indicating the Tab Killer feature is on and suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "Включено (нажмите {shortcut})"
+   },
+   "open_tab_thats_safe_for_work": {
+      "description": "Label for dropdown where user selects what kind of a tab will open when tabs are hidden.",
+      "message": "Открыть вкладку, разрешенную на работе:"
+   },
+   "our_keyboard_shortcut_only_works_when_youre_on_an_http_or_https_page": {
+      "description": "Informative text.",
+      "message": "Сочетание клавиш работает, только когда вы находитесь на странице http или https. Если вы находитесь на новой вкладке или на пустой странице, вам нужно будет открыть наше расширение и нажать кнопку функции «Закрытие вкладок», чтобы скрыть или отобразить вкладки."
+   },
+   "press_shortcut": {
+      "description": "Label suggesting user to press a keyboard shortcut to trigger the Tab Killer feature. {shortcut} placeholder stands for the actual keyboard shortcut, e.g. ALT + K.",
+      "message": "Нажмите {shortcut}"
+   },
+   "privacy_policy": {
+      "description": "Button label, opens website with the privacy policy for the product.",
+      "message": "Политика конфиденциальности"
+   },
+   "product_description": {
+      "description": "Product description which is used for this application.",
+      "message": "Замаскируйте свое местоположение, чтобы разблокировать веб-сайты и анонимно получать доступ к любимым новостям, телесериалам и социальным сетям из любой точки мира."
+   },
+   "product_name": {
+      "description": "Product name which is used for this application.",
+      "message": "HMA! VPN Proxy — разблокировка сайтов и защита"
+   },
+   "product_name_short": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA!"
+   },
+   "product_name_short_chrome": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! для Chrome"
+   },
+   "product_name_short_firefox": {
+      "description": "Short product name which is used for this application.",
+      "message": "HMA! для Firefox"
+   },
+   "rate_us": {
+      "description": "Button label, opens website where user can rate the application.",
+      "message": "Оцените нас"
+   },
+   "remove": {
+      "description": "Button label, removes some entry.",
+      "message": "Удалить"
+   },
+   "reopen_tabs": {
+      "description": "Button label, reopen tabs previously closed by Tab Killer feature.",
+      "message": "Снова открыть вкладки"
+   },
+   "save": {
+      "description": "Button label, persists changes in configuration.",
+      "message": "Сохранить"
+   },
+   "settings": {
+      "description": "Title for the Settings screen.",
+      "message": "Настройки"
+   },
+   "some_settings_are_disabled_because_of_another_extension": {
+      "description": "Label indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "Некоторые настройки отключены из-за работы другого расширения."
+   },
+   "stop_privacy_leaks": {
+      "description": "Toast notification title.",
+      "message": "Остановите утечку личных данных"
+   },
+   "stream_videos_with_hma_pro_vpn": {
+      "description": "Button label upselling the full-featured desktop VPN client. Variant D.",
+      "message": "Стриминг видео с HMA! Pro VPN"
+   },
+   "stream_yourself_into_a_coma": {
+      "description": "Label upselling the full-featured desktop VPN client. Variant B.",
+      "message": "Стриминг до посинения"
+   },
+   "tab_killer": {
+      "description": "Feature name - can hide (close) all browser tabs using a keyboard shortcut.",
+      "message": "Закрытие вкладок"
+   },
+   "tabs_hidden": {
+      "description": "Label showing number of tabs hidden by Tab Killer feature. Contains ICU message syntax.",
+      "message": "{ hidden, plural, one {скрыта 1} few {скрыто #} many {скрыто #} other {скрыто #} }"
+   },
+   "terms_and_conditions": {
+      "description": "Button label, opens website with the terms and conditions for the product.",
+      "message": "Условия и положения"
+   },
+   "this_browser_aint_big_enough": {
+      "description": "Title on a screen indicating that some settings are not accessible due to conflicting third party extensions.",
+      "message": "В этом браузере не хватит места для нас обоих!"
+   },
+   "too_lazy_to_click_the_on_button": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "Лень нажимать кнопки? Мы понимаем. С помощью функции автоматической маскировки можно автоматически скрывать свое местоположение при каждом посещении определенных сайтов."
+   },
+   "turn_off": {
+      "description": "Button label on the main proxy switch. Turns the proxy off.",
+      "message": "Выключить"
+   },
+   "turn_on": {
+      "description": "Button label on the main proxy switch. Turns the proxy on.",
+      "message": "Включить"
+   },
+   "unblock_even_more_content": {
+      "description": "Toast notification title. Refers to unblocking online content blocked in the country of the user.",
+      "message": "Разблокируйте еще больше контента"
+   },
+   "version": {
+      "description": "Label with application version, {version} placeholder stands for the actual version number, e.g. 1.0.345.",
+      "message": "Версия {version}"
+   },
+   "web_rtc_blocker": {
+      "description": "WebRTC Blocker settings title.",
+      "message": "Блокировка WebRTC"
+   },
+   "what_are_you_waiting_for": {
+      "description": "Label on an onboarding tooltip.",
+      "message": "Чего же вы ждете? Нажмите на мою очаровательную морду, чтобы скрыть свое местоположение."
+   },
+   "when_i_visit_this_website": {
+      "description": "Label for input where user enters website address.",
+      "message": "Когда я посещаю этот сайт:"
+   },
+   "your_location_is_auto_disguised": {
+      "description": "Title shown to user when the auto disguise feature is active on the current tab.",
+      "message": "Ваше местоположение автоматически маскируется"
+   },
+   "your_location_is_disguised": {
+      "description": "Title shown to user when the main proxy switch is on.",
+      "message": "Ваше местоположение замаскировано"
+   },
+   "your_location_is_exposed": {
+      "description": "Title shown to user when the main proxy switch is off.",
+      "message": "Ваше местоположение доступно посторонним!"
+   }
+}

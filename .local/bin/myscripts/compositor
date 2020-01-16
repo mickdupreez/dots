@@ -1,0 +1,5 @@
+#!/bin/bash
+
+killall picom
+
+picom -bc >/dev/null &

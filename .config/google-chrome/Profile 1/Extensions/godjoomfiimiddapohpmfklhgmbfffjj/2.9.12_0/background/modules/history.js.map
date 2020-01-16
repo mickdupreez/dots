@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "history.js",
+  "sourceRoot": "../../..",
+  "sources": [
+    "coffee/background/modules/history.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EAAM,MAAM,CAAC;;;IACX,OAAC,CAAA,MAAD,GAAS,SAAC,GAAD;aACP,MAAM,CAAC,OAAO,CAAC,MAAf,CAAsB;QAAA,IAAA,EAAM,GAAG,CAAC,OAAV;QAAmB,SAAA,EAAW,CAA9B;OAAtB,EAAuD,SAAC,OAAD;eACrD,IAAA,CAAK,GAAG,CAAC,GAAT,EAAc;UAAA,MAAA,EAAQ,aAAR;UAAuB,IAAA,EAAM,OAA7B;UAAsC,OAAA,EAAS,GAAG,CAAC,OAAnD;SAAd;MADqD,CAAvD;IADO;;;;;AADX"
+}

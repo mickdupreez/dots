@@ -1,0 +1,39 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "{477dbe5e-1742-4641-a2c3-b6113bb5cf6e}"
+      }
+   },
+   "background": {
+      "persistent": false,
+      "scripts": [ "Javascript/browser-polyfill.min.js", "Javascript/Background.js" ]
+   },
+   "browser_action": {
+
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "Javascript/browser-polyfill.min.js", "Javascript/Content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Changes fullscreen buttons to go into a popup. Works for every website that uses fullscreen, including Youtube, Vimeo, Netflix",
+   "developer": {
+      "name": "Michiel Dral",
+      "url": "https://dral.eu/"
+   },
+   "icons": {
+      "128": "Icons/Icon_128.png",
+      "16": "Icons/Icon_16.png",
+      "32": "Icons/Icon_32.png",
+      "64": "Icons/Icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtRsSTH4oy0Llcc10VO46wqDHEjWpr/4sE0hh9N12Ri7hSiMnAT1mzeZPnOH9jZkA+rLDgj/6MLt4GSw/LAxFnRagO2YMiOihNWTphpopQvHZnbgW712yFkZ3H7ZlQxHDn/hnnT7PB5FmfBIo8i5N+sBOQ0TF3g8WxRGUxd/3CxtoCngXAeBuspv2YH/d1Yd5WTQhmwnTZSg03X0WWXFg+Cp+rUv9/7SUBPfUTyJRnMHaM46D9fHDgGZmL/VN1dM/IkhjF+YLoj919N4ZR4OR+nS57o4ti6jVQrPSkEy1ugmTetzU7cWksfSHHvfRKgMlBJNZcgZ70XYISQYUym2rvQIDAQAB",
+   "manifest_version": 2,
+   "name": "Windowed - floating Youtube/every website",
+   "permissions": [ "storage", "tabs", "\u003Call_urls>" ],
+   "short_name": "Windowed",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "22",
+   "web_accessible_resources": [ "Images/*" ]
+}

@@ -1,0 +1,33 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "scripts/background.js" ]
+      }
+   },
+   "commands": {
+      "pause-and-minimize": {
+         "description": "Danger, Will Robinson!",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+9"
+         }
+      }
+   },
+   "description": "Always on top Floating Mini Player for YouTube™.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "256": "images/icon-256.png",
+      "32": "images/icon-32.png",
+      "512": "images/icon-512.png",
+      "64": "images/icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoFqm2CvOdbDRAnHM3uTgGcqwDHRdnONyqQQCwFjU6bL4GUCTRZ7vXckOog0aurUmBvlYuU1BqhQWG+02dIo1scwIIElGA2UlR6ud9llqB5XpoLc28ViiwFFjFQzgDkPyukFFXRyuzV0fvIM/KJ8kW1JINDPJzavcraHlq31mShG6aAuNZifVlXIsmooMwklLDVyBKwNvLTBqzVWoUeY6HkhVFDwVP9lnBSFsjPQDkvdvRHCDC+bfwn3jmhPpqWVUH0khiJmljG9vD+wnsZ2+80s9zLrL/r4ROBriMpjRCWDyP5VwKKNO614F6FA6n0E2VzGnLlP4bf5kbv+42/aIlQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "44",
+   "name": "Floating for YouTube™",
+   "permissions": [ "webview", "alwaysOnTopWindows", "storage", "fullscreen" ],
+   "short_name": "Floating for YouTube™",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.0"
+}

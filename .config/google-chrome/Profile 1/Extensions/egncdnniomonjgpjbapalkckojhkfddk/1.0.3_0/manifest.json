@@ -1,0 +1,41 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "styles/inject.css" ],
+      "js": [ "scripts/inject.js" ],
+      "matches": [ "*://*.youtube.com/*", "*://*.youtube-nocookie.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "scripts/inject.embed.js" ],
+      "matches": [ "*://*.youtube.com/embed/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "256": "images/icon-256.png",
+      "32": "images/icon-32.png",
+      "512": "images/icon-512.png",
+      "64": "images/icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoaPxxS1QU57GMrbBRUadNA2Jk1o8MuwNRJ8b947sZMER5N835RNXi+tkuhlPHetjMcldfourY3VwtlxL9AhZgZ6U+U/0Hb28agdslT+np/LXhCtKjwr1VOMQDk7nlkT+onae+JDeT1o+I0DY6L8qRB7VnOzDrbG7Md8SjyXuQpqZ4m5eH8SaqFcl97sTXCTQGuieIb3lCZXtrL67WZh/G8Px6A1FLrrh0KbVXo7Sb2Hzj/36iS+YNA8cfk6HxHWdf4L4I/A6ORsB+zkU+wLH1seXeKXigHemmwtQjPe9QXpCgsTL7j2Cat4rm710PUG9+OnFSIYjI7XSL5jLiZoX+QIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "page_action": {
+      "default_icon": {
+         "19": "images/icon-19.png",
+         "38": "images/icon-38.png"
+      },
+      "default_title": "Open in Floating for YouTube™"
+   },
+   "permissions": [ "tabs", "storage", "webRequest", "webRequestBlocking", "webNavigation", "notifications", "management", "\u003Call_urls>" ],
+   "short_name": "Floating for YouTube™",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3",
+   "web_accessible_resources": [ "scripts/inject.player.js", "scripts/inject.watch.js", "scripts/inject.watchlater.js" ]
+}

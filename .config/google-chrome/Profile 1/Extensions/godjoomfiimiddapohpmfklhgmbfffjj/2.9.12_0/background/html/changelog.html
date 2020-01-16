@@ -1,0 +1,194 @@
+
+<html>
+  <head><title>ChangeLog.mkd</title></head>
+  <body>
+<h1>Changelog</h1>
+
+<h2>2.9.11 (2016/02/02)</h2>
+
+<ul>
+<li>Open new tab in background, add <code>set follow_new_tab=1</code> to options to open it in frontend</li>
+</ul>
+
+
+<h2>2.9.9 (2016/02/02)</h2>
+
+<ul>
+<li>Fix goto buffer</li>
+<li>Fix security issue</li>
+</ul>
+
+
+<h2>2.9.8 (2014/04/03)</h2>
+
+<ul>
+<li>Fix can't open relative path</li>
+<li>Fix need to type <code>&lt;</code> twice in textarea</li>
+<li>Fix <code>&lt;C-v&gt;&lt;C-f&gt;</code> doesn't work in Mac OS</li>
+<li>Fix open in external editor doesn't work in gmail</li>
+<li>Lots of minor fixes</li>
+</ul>
+
+
+<h2>2.9.7 (2014/03/07)</h2>
+
+<ul>
+<li>Add option <code>disable_autofocus</code> which tries to prevent web pages from focusing some input field when loaded.</li>
+<li>Vrome now will try to scroll every page the "correct" way; you can click on any element that is scrollable and it will scroll it</li>
+<li>Updates to the search feature - lots of optimizations; it shows a notification on search wrap; it displays if there is a single result; ability to click on the page after the search is initiated and finding the next match continues from there; and more</li>
+<li>Add option <code>completion_items</code> - it supports the following options: "url,search-engine,bookmarks,history,search". Any could be added/removed and in any order and then results from completion will be filtered and ordered accordingly.</li>
+<li>Add option <code>debug</code> which reloads the extension while developing it. For normal use do NOT set this</li>
+<li>Lots of optimizations here and there</li>
+<li>Lots of minor fixes</li>
+</ul>
+
+
+<h2>2.9.6 (2013/12/25)</h2>
+
+<ul>
+<li>Add option <code>follow_new_tab</code>, follow new tab opened by <code>t/T/F</code> or <code>&lt;C-Enter&gt;</code> if its value is 1, default is 1.</li>
+<li>Change <code>&lt;Enter&gt;</code>'s behavior in search mode. Press once to leave command box, press again to open current focused link</li>
+</ul>
+
+
+<h2>2.9.5 (2013/11/18)</h2>
+
+<ul>
+<li>Fix lost characters when type fast when open url</li>
+</ul>
+
+
+<h2>2.9.4 (2013/08/26)</h2>
+
+<ul>
+<li><code>O/T</code> editing the URL of the current page.</li>
+</ul>
+
+
+<h2>2.9.3 (2013/07/22)</h2>
+
+<ul>
+<li>No need press Enter when open Quick Marks with <code>go|gn</code></li>
+<li>Fix vrome with mime-type text/xml pages</li>
+</ul>
+
+
+<h2>2.9.2 (2013/07/08)</h2>
+
+<ul>
+<li>Use Coffee Script to rewrite the whole project</li>
+<li>This version would broken custom css/javascript configurations, looking for a better soluation in version 3</li>
+<li>Improved command line mode</li>
+<li>New help page (haven't finish yet, wait version 3)</li>
+<li>Add gr/gR to open referer URL</li>
+<li>Add <code>&lt;M-d&gt;</code>, same as P, but focus the new tab</li>
+<li>Add <code>&lt;M-b&gt;</code>, delete tabs don't match keyword</li>
+<li>Add <code>&lt;M-(y|u|i|o)&gt;</code> to delete forward/backward char/word in insert mode</li>
+<li>Add <code>&lt;M-(n|m)&gt;</code> to move next/previous line in insert mode</li>
+<li>Add <code>&lt;M-z&gt;</code> to undo changes in insert mode</li>
+<li>Add lots of commands for command line mode</li>
+<li>Bug Fixes</li>
+</ul>
+
+
+<h2>2.0.2 (2013/02/04)</h2>
+
+<ul>
+<li>Fix can't save option page</li>
+<li>Fix Font error in gmail/youtube</li>
+</ul>
+
+
+<h2>2.0.1 (2013/02/04)</h2>
+
+<ul>
+<li>Fix <code>&lt;M-d&gt;</code> close current and focus last visited tab</li>
+<li>Fix <code>&lt;C-y&gt;</code> to shorten URL</li>
+</ul>
+
+
+<h2>2.0.0 (2013/02/03)</h2>
+
+<ul>
+<li>New help page, press <code>&lt;F1&gt;</code> to check it</li>
+<li>Add some commands to CmdLine</li>
+<li>Rewitten quick mark features</li>
+<li>New short keys in InsertMode. <code>&lt;M-{hjkl}&gt;</code> to move a char/word, <code>&lt;M-{yuio}&gt;</code> to delete a char/word</li>
+<li>New short keys for tab. <code>&lt;ge&gt;, &lt;gq&gt;, &lt;dW&gt;, &lt;gm&gt;, &lt;gM&gt;</code> and more...</li>
+<li>Add Hassen Ben Tanfous as author! Thank you!</li>
+</ul>
+
+
+<h2>1.1.2 (2012/04/10)</h2>
+
+<ul>
+<li>[Url] Fix open, search multibyte characters (Thanks Takashi Sakai)</li>
+</ul>
+
+
+<h2>1.1.1 (2012/03/29)</h2>
+
+<ul>
+<li>[Hint] Configurable hintkeys, e.g: http://goo.gl/d7EQ0, refer Features -> Hints Mode for more (Thanks Brandon Goldsworthy)</li>
+</ul>
+
+
+<h2>1.1.0 (2012/03/16)</h2>
+
+<ul>
+<li>[Hint] Faster Hint Mode (Thanks Keryn Knight)</li>
+<li>[Open] Escape special characters when open a url (issue #117)</li>
+<li>[Open] Recognize "localhost" as valid URL (issue #118)</li>
+<li>[Open] Fix open part of the URL you inputed when you input very fast or search history very slow (issue #116)</li>
+<li>[Vromerc] Fix can't use Function keys as map key in .Vromerc (issue #109)</li>
+<li>[AutoComplete/Vromerc] Available to change the hotkey to go to the next/previous/next 10/previous 10 matched item. Example: http://goo.gl/koFEh (issue #102)</li>
+</ul>
+
+
+<h2>1.0.3 (2012/03/06)</h2>
+
+<ul>
+<li><code>&lt;C-r&gt;</code> Refresh page without cached content (Thanks Lukasz Wrzosek)</li>
+</ul>
+
+
+<h2>1.0.2 (2012/02/27)</h2>
+
+<ul>
+<li>Faster Search (Thanks YorikSar)</li>
+<li><p>In order to Fix <code>&lt;C-Esc&gt;</code> is mapped to open Start menu in Windows, make the enable Vrome key customizable.
+You need to add something like below to your .Vromerc from option page.</p>
+
+<p> <code>set enable_vrome_key=&lt;Esc&gt;</code></p></li>
+</ul>
+
+
+<h2>1.0.1 (2012/02/09)</h2>
+
+<ul>
+<li>Fix scroll issues with 'G' that caused by chrome's update</li>
+</ul>
+
+
+<h2>1.0.0 (2012/01/01)</h2>
+
+<ul>
+<li><p>The first public and stable release after two more years development!</p>
+
+<p>We did lots of changes in this release, suggest you to read the README once again.</p>
+
+<p>But I would like to list those abandon key binding from old versions:</p>
+
+<ul>
+<li><p>"d" is not supported to close current tab now. use "dc" for that.</p>
+
+<p>(Because we have added some hotkeys started with "d".  "dc", "dm", "do", "dl", "dr", "dp", "dP". refer Features for detail)</p></li>
+<li><p><code>&lt;Esc&gt;</code> is not supported to enable Vrome after disabled it with <code>&lt;C-z&gt;</code>. use <code>&lt;C-Esc&gt;</code> (Control+Esc) for that.</p>
+
+<p>(Because <code>&lt;Esc&gt;</code> is used much often than <code>&lt;C-Esc&gt;</code>)</p></li>
+</ul>
+</li>
+</ul>
+
+  </body>
+</html>
